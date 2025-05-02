@@ -1,0 +1,9 @@
+
+  account: HDFEYMR-TIGERANALYTICS_PARTNER
+  user: suvam.ghosh@tigeranalytics.com
+  password: Suv@m7407920507
+  authenticator: externalbrowser
+  role: DWHBI_DEVELOPER
+  warehouse: DWHBI_DEVELOPER_WH
+  database: TEST_SNOWCONVERT_MSSQL
+  schema: public

@@ -1,0 +1,326 @@
+File,Technology,Keyword,Count
+\input_mssql_functions.sql,SQL,=,64
+\input_mssql_functions.sql,SQL,and,13
+\input_mssql_functions.sql,SQL,as,34
+\input_mssql_functions.sql,SQL,avg,1
+\input_mssql_functions.sql,SQL,begin,24
+\input_mssql_functions.sql,SQL,between,3
+\input_mssql_functions.sql,SQL,bit,2
+\input_mssql_functions.sql,SQL,case,4
+\input_mssql_functions.sql,SQL,cast,2
+\input_mssql_functions.sql,SQL,char,4
+\input_mssql_functions.sql,SQL,coalesce,3
+\input_mssql_functions.sql,SQL,convert,9
+\input_mssql_functions.sql,SQL,count,2
+\input_mssql_functions.sql,SQL,create function,23
+\input_mssql_functions.sql,SQL,ct,6
+\input_mssql_functions.sql,SQL,dateadd,1
+\input_mssql_functions.sql,SQL,datediff,1
+\input_mssql_functions.sql,SQL,datetime,16
+\input_mssql_functions.sql,SQL,day,1
+\input_mssql_functions.sql,SQL,decimal,8
+\input_mssql_functions.sql,SQL,declare,20
+\input_mssql_functions.sql,SQL,desc,1
+\input_mssql_functions.sql,SQL,else,7
+\input_mssql_functions.sql,SQL,end,28
+\input_mssql_functions.sql,SQL,exists,5
+\input_mssql_functions.sql,SQL,from,23
+\input_mssql_functions.sql,SQL,go,14
+\input_mssql_functions.sql,SQL,group by,1
+\input_mssql_functions.sql,SQL,if,9
+\input_mssql_functions.sql,SQL,inner join,14
+\input_mssql_functions.sql,SQL,insert,4
+\input_mssql_functions.sql,SQL,int,30
+\input_mssql_functions.sql,SQL,into,4
+\input_mssql_functions.sql,SQL,is not null,1
+\input_mssql_functions.sql,SQL,is null,3
+\input_mssql_functions.sql,SQL,isnull,5
+\input_mssql_functions.sql,SQL,join,1
+\input_mssql_functions.sql,SQL,money,7
+\input_mssql_functions.sql,SQL,name,2
+\input_mssql_functions.sql,SQL,not null,1
+\input_mssql_functions.sql,SQL,null,5
+\input_mssql_functions.sql,SQL,nvarchar,12
+\input_mssql_functions.sql,SQL,on,15
+\input_mssql_functions.sql,SQL,order by,1
+\input_mssql_functions.sql,SQL,print,2
+\input_mssql_functions.sql,SQL,return,23
+\input_mssql_functions.sql,SQL,returns,24
+\input_mssql_functions.sql,SQL,select,23
+\input_mssql_functions.sql,SQL,set,11
+\input_mssql_functions.sql,SQL,store,2
+\input_mssql_functions.sql,SQL,sum,7
+\input_mssql_functions.sql,SQL,table,1
+\input_mssql_functions.sql,SQL,then,14
+\input_mssql_functions.sql,SQL,tinyint,3
+\input_mssql_functions.sql,SQL,top,1
+\input_mssql_functions.sql,SQL,varchar,2
+\input_mssql_functions.sql,SQL,when,14
+\input_mssql_functions.sql,SQL,where,19
+\input_mssql_functions.sql,SQL,*,9
+\input_mssql_functions.sql,SQL,+,6
+\input_mssql_functions.sql,SQL,-,1
+\input_mssql_functions.sql,SQL,/,1
+\input_mssql_functions.sql,SQL,<=,1
+\input_mssql_functions.sql,SQL,>,2
+\input_mssql_procedures.sql,SQL,=,112
+\input_mssql_procedures.sql,SQL,@@identity,1
+\input_mssql_procedures.sql,SQL,@@trancount,1
+\input_mssql_procedures.sql,SQL,alter procedure,4
+\input_mssql_procedures.sql,SQL,and,9
+\input_mssql_procedures.sql,SQL,as,68
+\input_mssql_procedures.sql,SQL,avg,1
+\input_mssql_procedures.sql,SQL,begin try,4
+\input_mssql_procedures.sql,SQL,begin transaction,1
+\input_mssql_procedures.sql,SQL,begin catch,4
+\input_mssql_procedures.sql,SQL,begin,43
+\input_mssql_procedures.sql,SQL,bit,2
+\input_mssql_procedures.sql,SQL,cast,4
+\input_mssql_procedures.sql,SQL,category,1
+\input_mssql_procedures.sql,SQL,commit,1
+\input_mssql_procedures.sql,SQL,containstable,3
+\input_mssql_procedures.sql,SQL,convert,6
+\input_mssql_procedures.sql,SQL,count,3
+\input_mssql_procedures.sql,SQL,create procedure,32
+\input_mssql_procedures.sql,SQL,current_user,1
+\input_mssql_procedures.sql,SQL,date,3
+\input_mssql_procedures.sql,SQL,datediff,1
+\input_mssql_procedures.sql,SQL,datetime,8
+\input_mssql_procedures.sql,SQL,day,1
+\input_mssql_procedures.sql,SQL,decimal,3
+\input_mssql_procedures.sql,SQL,declare,15
+\input_mssql_procedures.sql,SQL,desc,1
+\input_mssql_procedures.sql,SQL,else,5
+\input_mssql_procedures.sql,SQL,end try,4
+\input_mssql_procedures.sql,SQL,end catch,4
+\input_mssql_procedures.sql,SQL,end,43
+\input_mssql_procedures.sql,SQL,error_line,2
+\input_mssql_procedures.sql,SQL,error_message,2
+\input_mssql_procedures.sql,SQL,error_number,3
+\input_mssql_procedures.sql,SQL,error_procedure,2
+\input_mssql_procedures.sql,SQL,error_severity,2
+\input_mssql_procedures.sql,SQL,error_state,2
+\input_mssql_procedures.sql,SQL,exec,2
+\input_mssql_procedures.sql,SQL,execute,26
+\input_mssql_procedures.sql,SQL,freetexttable,1
+\input_mssql_procedures.sql,SQL,from,28
+\input_mssql_procedures.sql,SQL,getdate,4
+\input_mssql_procedures.sql,SQL,go,18
+\input_mssql_procedures.sql,SQL,group by,4
+\input_mssql_procedures.sql,SQL,having,1
+\input_mssql_procedures.sql,SQL,id,4
+\input_mssql_procedures.sql,SQL,if,9
+\input_mssql_procedures.sql,SQL,inner join,20
+\input_mssql_procedures.sql,SQL,insert,6
+\input_mssql_procedures.sql,SQL,int,60
+\input_mssql_procedures.sql,SQL,into,5
+\input_mssql_procedures.sql,SQL,is null,3
+\input_mssql_procedures.sql,SQL,isnull,5
+\input_mssql_procedures.sql,SQL,key,4
+\input_mssql_procedures.sql,SQL,language,4
+\input_mssql_procedures.sql,SQL,money,1
+\input_mssql_procedures.sql,SQL,name,14
+\input_mssql_procedures.sql,SQL,nchar,2
+\input_mssql_procedures.sql,SQL,null,1
+\input_mssql_procedures.sql,SQL,nvarchar,12
+\input_mssql_procedures.sql,SQL,off,1
+\input_mssql_procedures.sql,SQL,on,30
+\input_mssql_procedures.sql,SQL,option,4
+\input_mssql_procedures.sql,SQL,or,1
+\input_mssql_procedures.sql,SQL,order by,7
+\input_mssql_procedures.sql,SQL,out,2
+\input_mssql_procedures.sql,SQL,print,20
+\input_mssql_procedures.sql,SQL,rank,4
+\input_mssql_procedures.sql,SQL,return,3
+\input_mssql_procedures.sql,SQL,rollback,1
+\input_mssql_procedures.sql,SQL,select,32
+\input_mssql_procedures.sql,SQL,serverproperty,1
+\input_mssql_procedures.sql,SQL,set,32
+\input_mssql_procedures.sql,SQL,sum,4
+\input_mssql_procedures.sql,SQL,tinyint,1
+\input_mssql_procedures.sql,SQL,transaction,2
+\input_mssql_procedures.sql,SQL,union all,4
+\input_mssql_procedures.sql,SQL,update,9
+\input_mssql_procedures.sql,SQL,values,6
+\input_mssql_procedures.sql,SQL,varchar,16
+\input_mssql_procedures.sql,SQL,where,20
+\input_mssql_procedures.sql,SQL,with,8
+\input_mssql_procedures.sql,SQL,xact_state,1
+\input_mssql_procedures.sql,SQL,*,4
+\input_mssql_procedures.sql,SQL,+,33
+\input_mssql_procedures.sql,SQL,-,2
+\input_mssql_procedures.sql,SQL,<=,4
+\input_mssql_procedures.sql,SQL,<,1
+\input_mssql_procedures.sql,SQL,>=,4
+\input_mssql_procedures.sql,SQL,>,2
+\input_mssql_tables.sql,SQL,=,9
+\input_mssql_tables.sql,SQL,and,16
+\input_mssql_tables.sql,SQL,as,11
+\input_mssql_tables.sql,SQL,availability,2
+\input_mssql_tables.sql,SQL,between,13
+\input_mssql_tables.sql,SQL,bit,7
+\input_mssql_tables.sql,SQL,capacity,1
+\input_mssql_tables.sql,SQL,category,2
+\input_mssql_tables.sql,SQL,char,1
+\input_mssql_tables.sql,SQL,check,94
+\input_mssql_tables.sql,SQL,class,4
+\input_mssql_tables.sql,SQL,comment,1
+\input_mssql_tables.sql,SQL,constraint,240
+\input_mssql_tables.sql,SQL,convert,1
+\input_mssql_tables.sql,SQL,create table,109
+\input_mssql_tables.sql,SQL,database,1
+\input_mssql_tables.sql,SQL,date,18
+\input_mssql_tables.sql,SQL,dateadd,2
+\input_mssql_tables.sql,SQL,datetime,130
+\input_mssql_tables.sql,SQL,day,1
+\input_mssql_tables.sql,SQL,decimal,10
+\input_mssql_tables.sql,SQL,default,160
+\input_mssql_tables.sql,SQL,definition,1
+\input_mssql_tables.sql,SQL,description,2
+\input_mssql_tables.sql,SQL,document,2
+\input_mssql_tables.sql,SQL,exec,1
+\input_mssql_tables.sql,SQL,float,10
+\input_mssql_tables.sql,SQL,for,4
+\input_mssql_tables.sql,SQL,foreign,10
+\input_mssql_tables.sql,SQL,geography,1
+\input_mssql_tables.sql,SQL,getdate,87
+\input_mssql_tables.sql,SQL,go,102
+\input_mssql_tables.sql,SQL,group,1
+\input_mssql_tables.sql,SQL,identity,68
+\input_mssql_tables.sql,SQL,in,14
+\input_mssql_tables.sql,SQL,int,244
+\input_mssql_tables.sql,SQL,is not null,1
+\input_mssql_tables.sql,SQL,is null,16
+\input_mssql_tables.sql,SQL,isnull,8
+\input_mssql_tables.sql,SQL,key,10
+\input_mssql_tables.sql,SQL,like,1
+\input_mssql_tables.sql,SQL,location,2
+\input_mssql_tables.sql,SQL,manager,1
+\input_mssql_tables.sql,SQL,max,9
+\input_mssql_tables.sql,SQL,money,58
+\input_mssql_tables.sql,SQL,name,51
+\input_mssql_tables.sql,SQL,nchar,33
+\input_mssql_tables.sql,SQL,newid,29
+\input_mssql_tables.sql,SQL,not null,551
+\input_mssql_tables.sql,SQL,not,4
+\input_mssql_tables.sql,SQL,null,271
+\input_mssql_tables.sql,SQL,nvarchar,199
+\input_mssql_tables.sql,SQL,on,100
+\input_mssql_tables.sql,SQL,operator,1
+\input_mssql_tables.sql,SQL,or,17
+\input_mssql_tables.sql,SQL,owner,1
+\input_mssql_tables.sql,SQL,password,1
+\input_mssql_tables.sql,SQL,primary key,10
+\input_mssql_tables.sql,SQL,primary,101
+\input_mssql_tables.sql,SQL,print,4
+\input_mssql_tables.sql,SQL,real,2
+\input_mssql_tables.sql,SQL,references,10
+\input_mssql_tables.sql,SQL,replication,4
+\input_mssql_tables.sql,SQL,resume,1
+\input_mssql_tables.sql,SQL,returns,1
+\input_mssql_tables.sql,SQL,rowguidcol,29
+\input_mssql_tables.sql,SQL,set,1
+\input_mssql_tables.sql,SQL,size,2
+\input_mssql_tables.sql,SQL,smallint,33
+\input_mssql_tables.sql,SQL,smallmoney,4
+\input_mssql_tables.sql,SQL,store,1
+\input_mssql_tables.sql,SQL,style,4
+\input_mssql_tables.sql,SQL,time,2
+\input_mssql_tables.sql,SQL,tinyint,36
+\input_mssql_tables.sql,SQL,title,4
+\input_mssql_tables.sql,SQL,type,1
+\input_mssql_tables.sql,SQL,unique,1
+\input_mssql_tables.sql,SQL,uniqueidentifier,29
+\input_mssql_tables.sql,SQL,unknown,1
+\input_mssql_tables.sql,SQL,upper,8
+\input_mssql_tables.sql,SQL,varbinary,7
+\input_mssql_tables.sql,SQL,varchar,4
+\input_mssql_tables.sql,SQL,version,2
+\input_mssql_tables.sql,SQL,xml,7
+\input_mssql_tables.sql,SQL,year,1
+\input_mssql_tables.sql,SQL,*,4
+\input_mssql_tables.sql,SQL,+,6
+\input_mssql_tables.sql,SQL,-,5
+\input_mssql_tables.sql,SQL,<>,1
+\input_mssql_tables.sql,SQL,>=,49
+\input_mssql_tables.sql,SQL,>,16
+\input_mssql_views.sql,SQL,=,82
+\input_mssql_views.sql,SQL,and,1
+\input_mssql_views.sql,SQL,apply,7
+\input_mssql_views.sql,SQL,as,210
+\input_mssql_views.sql,SQL,at,9
+\input_mssql_views.sql,SQL,avg,2
+\input_mssql_views.sql,SQL,case,9
+\input_mssql_views.sql,SQL,category,2
+\input_mssql_views.sql,SQL,coalesce,2
+\input_mssql_views.sql,SQL,convert,10
+\input_mssql_views.sql,SQL,count,5
+\input_mssql_views.sql,SQL,count_big,4
+\input_mssql_views.sql,SQL,create view,43
+\input_mssql_views.sql,SQL,create,12
+\input_mssql_views.sql,SQL,cross,6
+\input_mssql_views.sql,SQL,ct,6
+\input_mssql_views.sql,SQL,dateadd,3
+\input_mssql_views.sql,SQL,datediff,5
+\input_mssql_views.sql,SQL,datetime,6
+\input_mssql_views.sql,SQL,day,6
+\input_mssql_views.sql,SQL,degree,1
+\input_mssql_views.sql,SQL,description,1
+\input_mssql_views.sql,SQL,else,9
+\input_mssql_views.sql,SQL,end,9
+\input_mssql_views.sql,SQL,first,1
+\input_mssql_views.sql,SQL,for,1
+\input_mssql_views.sql,SQL,format,2
+\input_mssql_views.sql,SQL,from,45
+\input_mssql_views.sql,SQL,getdate,8
+\input_mssql_views.sql,SQL,go,40
+\input_mssql_views.sql,SQL,group by,12
+\input_mssql_views.sql,SQL,group,1
+\input_mssql_views.sql,SQL,having,2
+\input_mssql_views.sql,SQL,in,2
+\input_mssql_views.sql,SQL,index,12
+\input_mssql_views.sql,SQL,inner join,56
+\input_mssql_views.sql,SQL,integer,4
+\input_mssql_views.sql,SQL,is not null,3
+\input_mssql_views.sql,SQL,is null,2
+\input_mssql_views.sql,SQL,last,1
+\input_mssql_views.sql,SQL,left outer join,16
+\input_mssql_views.sql,SQL,left,2
+\input_mssql_views.sql,SQL,level,1
+\input_mssql_views.sql,SQL,ltrim,2
+\input_mssql_views.sql,SQL,model,8
+\input_mssql_views.sql,SQL,month,16
+\input_mssql_views.sql,SQL,name,41
+\input_mssql_views.sql,SQL,not in,2
+\input_mssql_views.sql,SQL,on,88
+\input_mssql_views.sql,SQL,outer,1
+\input_mssql_views.sql,SQL,pivot,1
+\input_mssql_views.sql,SQL,print,4
+\input_mssql_views.sql,SQL,ref,72
+\input_mssql_views.sql,SQL,replace,6
+\input_mssql_views.sql,SQL,resume,17
+\input_mssql_views.sql,SQL,right,2
+\input_mssql_views.sql,SQL,rtrim,2
+\input_mssql_views.sql,SQL,select,45
+\input_mssql_views.sql,SQL,set,4
+\input_mssql_views.sql,SQL,state,3
+\input_mssql_views.sql,SQL,store,3
+\input_mssql_views.sql,SQL,style,1
+\input_mssql_views.sql,SQL,sum,15
+\input_mssql_views.sql,SQL,summary,1
+\input_mssql_views.sql,SQL,then,17
+\input_mssql_views.sql,SQL,title,8
+\input_mssql_views.sql,SQL,type,1
+\input_mssql_views.sql,SQL,unique,12
+\input_mssql_views.sql,SQL,value,96
+\input_mssql_views.sql,SQL,when,17
+\input_mssql_views.sql,SQL,where,14
+\input_mssql_views.sql,SQL,with,12
+\input_mssql_views.sql,SQL,year,5
+\input_mssql_views.sql,SQL,*,3
+\input_mssql_views.sql,SQL,+,12
+\input_mssql_views.sql,SQL,-,4
+\input_mssql_views.sql,SQL,/,1
+\input_mssql_views.sql,SQL,<,5
+\input_mssql_views.sql,SQL,>=,2
+\input_mssql_views.sql,SQL,>,5

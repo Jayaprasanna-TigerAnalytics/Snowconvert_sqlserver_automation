@@ -1,0 +1,5 @@
+FileName,Extension,Technology,Status,isBinary,Bytes,ContentType,ContentLines,CommentLines,BlankLines
+\input_mssql_functions.sql,sql,SQL,OK,a,12194,Code,315,31,78
+\input_mssql_procedures.sql,sql,SQL,OK,a,25556,Code,604,81,112
+\input_mssql_tables.sql,sql,SQL,OK,a,60668,Code,1304,17,115
+\input_mssql_views.sql,sql,SQL,OK,a,49276,Code,890,41,91

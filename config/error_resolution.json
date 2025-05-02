@@ -1,0 +1,248 @@
+{
+    "version": "1.0",
+    "rules": {
+        "SSC-EWI-0040": {
+            "name": "format_preprocessing_in_ddl",
+            "description": "Remove FORMAT data type declarations in sqlserver input SQL",
+            "category": "pre-processing",
+            "severity": "Low",
+            "priority": 1,
+            "patterns": [
+                "\\bROWGUIDCOL NOT NULL(?: UNIQUE)?\\b"
+            ],
+            "regex_explanation": "It identifies the exact text 'ROWGUIDCOL NOT NULL' followed by an optional 'UNIQUE' keyword and ending with a word boundary. This is used to match the SQL Server specific data type declaration for GUID columns.", 
+            "rule_handler": {
+                "function": "preprocess_format_in_ddl",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    "ROWGUIDCOL NOT NULL",
+                    "ROWGUIDCOL NOT NULLUNIQUE"
+                    
+                ]
+            }
+        },
+        "SSC-EWI-0037": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "(?i)(CHECK\\s*\\([^)]*?)\\bIN\\b([^)]*?)"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "remove_in_in_check",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+        "SSC-EWI-0036": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "\\s*FOREIGN KEY\\s+REFERENCES\\s+\\w+\\s*\\(\\w+\\)"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_format_in_ddl",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+
+        "SSC-EWI-0038": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "\\(\\s*3\\s*\\)"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_format_in_ddl",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+
+        "SSC-EWI-0039": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "\\s+WITH CHECK"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_format_in_ddl",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+        
+        "SSC-EWI-0041": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "(BOOLEAN\\b(?:\\s+NOT NULL)?)(\\s+DEFAULT\\s*\\(\\s*\\d+\\s*\\))"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_boolean_default",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+        "SSC-EWI-0042": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "\\b(VARIANT(?:\\s+NOT\\s+NULL)?)\\s+(?:DEFAULT\\s*\\([^)]+\\)|AS\\s+NVL\\s*\\((?:[^()]+|\\([^()]*\\))*\\))"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "clean_variant_definitions",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+        "SSC-EWI-0043": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "\\bTIME\\(\\d+\\)"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_time_precision",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+        "SSC-EWI-0044": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                
+                "CONSTRAINT\\s+\\S+\\s+CHECK\\s*\\((?:[^()]+|\\((?:[^()]+|\\([^()]*\\))*\\))*\\)\\s*(?:!!!RESOLVE EWI!!!.*?!!!)?\\s*,?"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_format_in_ddl",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        }
+        ,
+        "SSC-EWI-0045": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                
+                ",+\\s*(?=\\))"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_format_in_ddl",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        }
+        ,
+
+        "SSC-EWI-0046": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                
+                
+                "JSON_VALUE\\(\\s*([\\w\\.]+)\\s*,\\s*'\\$(.*?)'\\s*\\)"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "json_parse",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        }
+    }
+} 

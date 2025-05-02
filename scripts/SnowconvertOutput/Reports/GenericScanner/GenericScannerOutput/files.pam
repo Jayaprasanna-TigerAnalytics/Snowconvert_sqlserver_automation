@@ -1,0 +1,5 @@
+Path,Technology,FileKind,BinaryKind,Bytes,SupportedStatus
+\input_mssql_functions.sql,SQL,SourceCodeFile,NotBinary,12194,DoesNotApply,DoesNotApply
+\input_mssql_procedures.sql,SQL,SourceCodeFile,NotBinary,25556,DoesNotApply,DoesNotApply
+\input_mssql_tables.sql,SQL,SourceCodeFile,NotBinary,60668,DoesNotApply,DoesNotApply
+\input_mssql_views.sql,SQL,SourceCodeFile,NotBinary,49276,DoesNotApply,DoesNotApply

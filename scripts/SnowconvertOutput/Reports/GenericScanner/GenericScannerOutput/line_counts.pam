@@ -1,0 +1,13 @@
+FileId,LineKind,Count
+\input_mssql_functions.sql,Code,315
+\input_mssql_functions.sql,Comment,31
+\input_mssql_functions.sql,Blank,78
+\input_mssql_procedures.sql,Code,604
+\input_mssql_procedures.sql,Comment,81
+\input_mssql_procedures.sql,Blank,112
+\input_mssql_tables.sql,Code,1304
+\input_mssql_tables.sql,Comment,17
+\input_mssql_tables.sql,Blank,115
+\input_mssql_views.sql,Code,890
+\input_mssql_views.sql,Comment,41
+\input_mssql_views.sql,Blank,91

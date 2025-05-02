@@ -1,0 +1,11 @@
+{
+    "input_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/inputForSnowconvert",
+    "preprocessed_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/inputForSnowconvert",
+    "converted_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowconvertOutput",
+    "snowflakefinalconvertoutput_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowflakeFinalConvertOutput",
+    "snowflakeerror_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowflakeErrorOutput",
+    "snowflakeoutput_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowflakeOutput",
+    "snowconvert_config": {
+        "source": "sql-server"
+    }
+}
