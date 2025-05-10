@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\suvam.ghosh\Desktop\snowconvertPython\venv"
+VIRTUAL_ENV="C:\Users\jayaprasanna.gan\Desktop\snowconvertPython\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
