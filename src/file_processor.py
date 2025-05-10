@@ -167,7 +167,37 @@ class read_files:
 
         processed_sql = re.sub(pattern, replacer, sql_content)
         return processed_sql, transformations
-    
+    def preprocess_variant_nvl_type(self,sql_content: str, pattern: str):
+        """
+        Convert 'VARIANT AS NVL(...)' to 'NUMBER AS NVL(...)' or 'VARCHAR AS NVL(...)' 
+        based on presence of arithmetic operations in the NVL expression.
+
+        Args:
+            sql_content (str): SQL content to process
+            pattern (str): Regex pattern to identify 'VARIANT AS NVL(...)'
+
+        Returns:
+            Tuple: Processed SQL string and list of transformation logs
+        """
+        transformations = []
+
+        def replacer(match):
+            original = match.group(0)
+            expr = match.group('expr').strip()
+            has_arithmetic = any(op in expr for op in ('+', '-', '*', '/'))
+            replacement_type = 'NUMBER' if has_arithmetic else 'VARCHAR'
+            replacement = original.replace('VARIANT', replacement_type, 1)
+
+            transformations.append({
+                'line_number': sql_content[:match.start()].count('\n') + 1,
+                'action': 'transform_variant_nvl',
+                'original': original,
+                'replacement': replacement
+            })
+            return replacement
+
+        processed_sql = re.sub(pattern, replacer, sql_content)
+        return processed_sql, transformations
     def clean_variant_definitions(self,sql_content,pattern):
         transformations = []
 
@@ -193,6 +223,8 @@ class read_files:
 
         processed_sql = pattern.sub(replacer, sql_content)
         return processed_sql, transformations
+
+    
 
     def preprocess_time_precision(self,sql_content, pattern):
         """
@@ -478,58 +510,72 @@ class read_files:
         # sql_content =self.read_sql_file()
         try:
             ddls = re.sub(r"--\*\*.*?\*\*\n?", "", ddls)  # Remove line comments with --**
+            
         except Exception as e:
             self.logger.error("--\*\*.*?\*\*\n?"+"---->",str(e))
         try:        
             ddls = re.sub(r"/\*\*.*?\*/", "", ddls, flags=re.DOTALL)  # Remove block comments /*** ***/
+            
         except Exception  as e:
             self.logger.error("/\*\*.*?\*/"+"---->",str(e))
         try:       
             ddls = re.sub(r"!!!.*?!!!\n?", "", ddls)
+            
         except  Exception  as e:
             self.logger.error("!!!.*?!!!\n?"+"---->",str(e)) 
         try:       
             ddls = re.sub(r"!!!", "", ddls)
+            
         except  Exception as e:
             self.logger.error("!!!"+"---->",str(e))
         try:        
             ddls = re.sub(r"\n\s*\n", "\n", ddls).strip()
+            
         except  Exception as e:
             self.logger.error("\n\s*\n"+"---->",str(e))
         try:        
             ddls = re.sub(r"^\t{2,}\s*", "", ddls, flags=re.MULTILINE) 
+            
         except  Exception as e:
             self.logger.error("^\t{2,}\s*"+"---->",str(e)) 
         try:        
             ddls = re.sub(r"\s+DEFAULT", " DEFAULT", ddls)
+            
         except  Exception as e:
             self.logger.error("\s+DEFAULT"+"---->",str(e)) 
         try:        
             ddls = re.sub(r"\s*--.*", "", ddls)
+           
         except  Exception as e:
             self.logger.error("\s*--.*"+"---->",str(e)) 
         try:        
             ddls = re.sub(r",+\s*(?=\))", "", ddls , flags=re.IGNORECASE)
+            
         except  Exception as e:
             self.logger.error(",+\s*(?=\))"+"---->",str(e))
         try:          
             ddls,trans=self.convert_insert_statement(ddls)
+            
         except  Exception as e:
             self.logger.error("convert_insert_statement function"+"---->",str(e)) 
-        try:        
+        try:
             ddls=re.sub(r"\b(VARIANT(?:\s+NOT\s+NULL)?)\s+DEFAULT\s*\(\s*[^()]*\s*\)",r"\1",ddls,flags=re.IGNORECASE)
+           
         except  Exception as e:
             self.logger.error("\b(VARIANT(?:\s+NOT\s+NULL)?)\s+DEFAULT\s*\(\s*[^()]*\s*\)"+"---->",str(e))  
         try:        
             ddls=self.convert_boolean_defaults(ddls)
+            
         except  Exception as e:
             self.logger.error("convert_boolean_defaults function"+"---->",str(e))
         try:
             ddls = re.sub(r"\(\s*(CURRENT_VERSION\(\)|CURRENT_TIMESTAMP\(\))\s*\)", r"(\1", ddls)
+            
         except  Exception as e:
             self.logger.error("\(\s*(CURRENT_VERSION\(\)|CURRENT_TIMESTAMP\(\))\s*\)"+"---->",str(e))  
         try:
-            ddls =re.sub(r',+', ',', ddls) 
+            ddls =re.sub(r',+', ',', ddls)
+            
         except  Exception as e:
             self.logger.error(",+"+"---->",str(e))
         # try:
@@ -538,21 +584,24 @@ class read_files:
         #     self.logger.error("PRINT"+"---->",str(e))
         try:
             ddls = re.sub(r"\bSET\s+NOCOUNT\s+ON\b\s*;?", '', ddls, flags=re.IGNORECASE)
+           
         except  Exception as e:
             self.logger.error("\bSET\s+NOCOUNT\s+ON\b\s*;?"+"---->",str(e))
         try:
             ddls = re.sub(r'\bROLLBACK\s+TRANSACTION\b', 'ROLLBACK', ddls, flags=re.IGNORECASE)
+            
         except  Exception as e:
             self.logger.error("\bROLLBACK\s+TRANSACTION\b"+"---->",str(e))  
         try:
             ddls = re.sub(r"\+\s*@ErrorMessage\b", r"|| ErrorMessage", ddls, flags=re.IGNORECASE)
+           
         except  Exception as e:
             self.logger.error("\+\s*@ErrorMessage\b"+"---->",str(e))            
         
         try:
             ddls = re.sub(r";\s*,", r";", ddls, flags=re.IGNORECASE)
         except  Exception as e:
-            self.logger.error(";\s*,"+"---->",str(e))   
+            self.logger.error(";\s*,"+"---->",str(e))
         try:
             ddls = re.sub(r",\s*(?=CREATE\b)", "", ddls, flags=re.IGNORECASE)
         except  Exception as e:
@@ -567,27 +616,37 @@ class read_files:
             self.logger.error("zero fill error --->",str(e)) 
         try:
             ddls=self.replace_print_with_return(ddls)
+           
         except Exception as e:
             self.logger.error("replace print with return  --->",str(e))               
         try:
             ddls = re.sub(r'\bPRINT\b', '---PRINT', ddls, flags=re.IGNORECASE)
+            
         except  Exception as e:
             self.logger.error("PRINT"+"---->",str(e))
 
         try:
             ddls=self.replace_variant_as_expression(ddls)
+            
         except  Exception as e:
             self.logger.error("VARIANT WITH (*/-/+/) REPLACED BY NUMARIC "+"---->",str(e))        
         
         try:
             ddls=self.remove_unquoted_colons(ddls)
+            
         except  Exception as e:
             self.logger.error("remove : from parameters "+"---->",str(e)) 
 
         try:
             ddls = re.sub(r"(^\s*)(SET\s+QUOTED_IDENTIFIER\s+(ON|OFF);?)", r'\1-- \2', ddls, flags=re.IGNORECASE | re.MULTILINE)
+           
         except  Exception as e:
-            self.logger.error("remove : from parameters "+"---->",str(e))     
+            self.logger.error("remove : from parameters "+"---->",str(e)) 
+        try:        
+            ddls, transformations = re.subn(r'(\b\w+\s+VARIANT)\s+AS\s+\w+\.GetLevel\(\)', r'\1', ddls, flags=re.IGNORECASE)
+  
+        except  Exception as e:
+            self.logger.error("preprocess_variant_getlevel function"+"---->",str(e))        
 
         return ddls
         # Remove multi-line comments

@@ -1,326 +1,441 @@
 FileId,Keyword,Count
-\input_mssql_functions.sql,=,64
-\input_mssql_functions.sql,and,13
-\input_mssql_functions.sql,as,34
-\input_mssql_functions.sql,avg,1
-\input_mssql_functions.sql,begin,24
-\input_mssql_functions.sql,between,3
-\input_mssql_functions.sql,bit,2
-\input_mssql_functions.sql,case,4
-\input_mssql_functions.sql,cast,2
-\input_mssql_functions.sql,char,4
-\input_mssql_functions.sql,coalesce,3
-\input_mssql_functions.sql,convert,9
-\input_mssql_functions.sql,count,2
-\input_mssql_functions.sql,create function,23
-\input_mssql_functions.sql,ct,6
-\input_mssql_functions.sql,dateadd,1
-\input_mssql_functions.sql,datediff,1
-\input_mssql_functions.sql,datetime,16
-\input_mssql_functions.sql,day,1
-\input_mssql_functions.sql,decimal,8
-\input_mssql_functions.sql,declare,20
-\input_mssql_functions.sql,desc,1
-\input_mssql_functions.sql,else,7
-\input_mssql_functions.sql,end,28
-\input_mssql_functions.sql,exists,5
-\input_mssql_functions.sql,from,23
-\input_mssql_functions.sql,go,14
-\input_mssql_functions.sql,group by,1
-\input_mssql_functions.sql,if,9
-\input_mssql_functions.sql,inner join,14
-\input_mssql_functions.sql,insert,4
-\input_mssql_functions.sql,int,30
-\input_mssql_functions.sql,into,4
-\input_mssql_functions.sql,is not null,1
-\input_mssql_functions.sql,is null,3
-\input_mssql_functions.sql,isnull,5
-\input_mssql_functions.sql,join,1
-\input_mssql_functions.sql,money,7
-\input_mssql_functions.sql,name,2
-\input_mssql_functions.sql,not null,1
-\input_mssql_functions.sql,null,5
-\input_mssql_functions.sql,nvarchar,12
-\input_mssql_functions.sql,on,15
-\input_mssql_functions.sql,order by,1
-\input_mssql_functions.sql,print,2
-\input_mssql_functions.sql,return,23
-\input_mssql_functions.sql,returns,24
-\input_mssql_functions.sql,select,23
-\input_mssql_functions.sql,set,11
-\input_mssql_functions.sql,store,2
-\input_mssql_functions.sql,sum,7
-\input_mssql_functions.sql,table,1
-\input_mssql_functions.sql,then,14
-\input_mssql_functions.sql,tinyint,3
-\input_mssql_functions.sql,top,1
-\input_mssql_functions.sql,varchar,2
-\input_mssql_functions.sql,when,14
-\input_mssql_functions.sql,where,19
-\input_mssql_functions.sql,*,9
-\input_mssql_functions.sql,+,6
-\input_mssql_functions.sql,-,1
-\input_mssql_functions.sql,/,1
-\input_mssql_functions.sql,<=,1
-\input_mssql_functions.sql,>,2
-\input_mssql_procedures.sql,=,112
-\input_mssql_procedures.sql,@@identity,1
-\input_mssql_procedures.sql,@@trancount,1
-\input_mssql_procedures.sql,alter procedure,4
-\input_mssql_procedures.sql,and,9
-\input_mssql_procedures.sql,as,68
-\input_mssql_procedures.sql,avg,1
-\input_mssql_procedures.sql,begin try,4
-\input_mssql_procedures.sql,begin transaction,1
-\input_mssql_procedures.sql,begin catch,4
-\input_mssql_procedures.sql,begin,43
-\input_mssql_procedures.sql,bit,2
-\input_mssql_procedures.sql,cast,4
-\input_mssql_procedures.sql,category,1
-\input_mssql_procedures.sql,commit,1
-\input_mssql_procedures.sql,containstable,3
-\input_mssql_procedures.sql,convert,6
-\input_mssql_procedures.sql,count,3
-\input_mssql_procedures.sql,create procedure,32
-\input_mssql_procedures.sql,current_user,1
-\input_mssql_procedures.sql,date,3
-\input_mssql_procedures.sql,datediff,1
-\input_mssql_procedures.sql,datetime,8
-\input_mssql_procedures.sql,day,1
-\input_mssql_procedures.sql,decimal,3
-\input_mssql_procedures.sql,declare,15
-\input_mssql_procedures.sql,desc,1
-\input_mssql_procedures.sql,else,5
-\input_mssql_procedures.sql,end try,4
-\input_mssql_procedures.sql,end catch,4
-\input_mssql_procedures.sql,end,43
-\input_mssql_procedures.sql,error_line,2
-\input_mssql_procedures.sql,error_message,2
-\input_mssql_procedures.sql,error_number,3
-\input_mssql_procedures.sql,error_procedure,2
-\input_mssql_procedures.sql,error_severity,2
-\input_mssql_procedures.sql,error_state,2
-\input_mssql_procedures.sql,exec,2
-\input_mssql_procedures.sql,execute,26
-\input_mssql_procedures.sql,freetexttable,1
-\input_mssql_procedures.sql,from,28
-\input_mssql_procedures.sql,getdate,4
-\input_mssql_procedures.sql,go,18
-\input_mssql_procedures.sql,group by,4
-\input_mssql_procedures.sql,having,1
-\input_mssql_procedures.sql,id,4
-\input_mssql_procedures.sql,if,9
-\input_mssql_procedures.sql,inner join,20
-\input_mssql_procedures.sql,insert,6
-\input_mssql_procedures.sql,int,60
-\input_mssql_procedures.sql,into,5
-\input_mssql_procedures.sql,is null,3
-\input_mssql_procedures.sql,isnull,5
-\input_mssql_procedures.sql,key,4
-\input_mssql_procedures.sql,language,4
-\input_mssql_procedures.sql,money,1
-\input_mssql_procedures.sql,name,14
-\input_mssql_procedures.sql,nchar,2
-\input_mssql_procedures.sql,null,1
-\input_mssql_procedures.sql,nvarchar,12
-\input_mssql_procedures.sql,off,1
-\input_mssql_procedures.sql,on,30
-\input_mssql_procedures.sql,option,4
-\input_mssql_procedures.sql,or,1
-\input_mssql_procedures.sql,order by,7
-\input_mssql_procedures.sql,out,2
-\input_mssql_procedures.sql,print,20
-\input_mssql_procedures.sql,rank,4
-\input_mssql_procedures.sql,return,3
-\input_mssql_procedures.sql,rollback,1
-\input_mssql_procedures.sql,select,32
-\input_mssql_procedures.sql,serverproperty,1
-\input_mssql_procedures.sql,set,32
-\input_mssql_procedures.sql,sum,4
-\input_mssql_procedures.sql,tinyint,1
-\input_mssql_procedures.sql,transaction,2
-\input_mssql_procedures.sql,union all,4
-\input_mssql_procedures.sql,update,9
-\input_mssql_procedures.sql,values,6
-\input_mssql_procedures.sql,varchar,16
-\input_mssql_procedures.sql,where,20
-\input_mssql_procedures.sql,with,8
-\input_mssql_procedures.sql,xact_state,1
-\input_mssql_procedures.sql,*,4
-\input_mssql_procedures.sql,+,33
-\input_mssql_procedures.sql,-,2
-\input_mssql_procedures.sql,<=,4
-\input_mssql_procedures.sql,<,1
-\input_mssql_procedures.sql,>=,4
-\input_mssql_procedures.sql,>,2
-\input_mssql_tables.sql,=,9
-\input_mssql_tables.sql,and,16
-\input_mssql_tables.sql,as,11
-\input_mssql_tables.sql,availability,2
-\input_mssql_tables.sql,between,13
-\input_mssql_tables.sql,bit,7
-\input_mssql_tables.sql,capacity,1
-\input_mssql_tables.sql,category,2
-\input_mssql_tables.sql,char,1
-\input_mssql_tables.sql,check,94
-\input_mssql_tables.sql,class,4
-\input_mssql_tables.sql,comment,1
-\input_mssql_tables.sql,constraint,240
-\input_mssql_tables.sql,convert,1
-\input_mssql_tables.sql,create table,109
-\input_mssql_tables.sql,database,1
-\input_mssql_tables.sql,date,18
-\input_mssql_tables.sql,dateadd,2
-\input_mssql_tables.sql,datetime,130
-\input_mssql_tables.sql,day,1
-\input_mssql_tables.sql,decimal,10
-\input_mssql_tables.sql,default,160
-\input_mssql_tables.sql,definition,1
-\input_mssql_tables.sql,description,2
-\input_mssql_tables.sql,document,2
-\input_mssql_tables.sql,exec,1
-\input_mssql_tables.sql,float,10
-\input_mssql_tables.sql,for,4
-\input_mssql_tables.sql,foreign,10
-\input_mssql_tables.sql,geography,1
-\input_mssql_tables.sql,getdate,87
-\input_mssql_tables.sql,go,102
-\input_mssql_tables.sql,group,1
-\input_mssql_tables.sql,identity,68
-\input_mssql_tables.sql,in,14
-\input_mssql_tables.sql,int,244
-\input_mssql_tables.sql,is not null,1
-\input_mssql_tables.sql,is null,16
-\input_mssql_tables.sql,isnull,8
-\input_mssql_tables.sql,key,10
-\input_mssql_tables.sql,like,1
-\input_mssql_tables.sql,location,2
-\input_mssql_tables.sql,manager,1
-\input_mssql_tables.sql,max,9
-\input_mssql_tables.sql,money,58
-\input_mssql_tables.sql,name,51
-\input_mssql_tables.sql,nchar,33
-\input_mssql_tables.sql,newid,29
-\input_mssql_tables.sql,not null,551
-\input_mssql_tables.sql,not,4
-\input_mssql_tables.sql,null,271
-\input_mssql_tables.sql,nvarchar,199
-\input_mssql_tables.sql,on,100
-\input_mssql_tables.sql,operator,1
-\input_mssql_tables.sql,or,17
-\input_mssql_tables.sql,owner,1
-\input_mssql_tables.sql,password,1
-\input_mssql_tables.sql,primary key,10
-\input_mssql_tables.sql,primary,101
-\input_mssql_tables.sql,print,4
-\input_mssql_tables.sql,real,2
-\input_mssql_tables.sql,references,10
-\input_mssql_tables.sql,replication,4
-\input_mssql_tables.sql,resume,1
-\input_mssql_tables.sql,returns,1
-\input_mssql_tables.sql,rowguidcol,29
-\input_mssql_tables.sql,set,1
-\input_mssql_tables.sql,size,2
-\input_mssql_tables.sql,smallint,33
-\input_mssql_tables.sql,smallmoney,4
-\input_mssql_tables.sql,store,1
-\input_mssql_tables.sql,style,4
-\input_mssql_tables.sql,time,2
-\input_mssql_tables.sql,tinyint,36
-\input_mssql_tables.sql,title,4
-\input_mssql_tables.sql,type,1
-\input_mssql_tables.sql,unique,1
-\input_mssql_tables.sql,uniqueidentifier,29
-\input_mssql_tables.sql,unknown,1
-\input_mssql_tables.sql,upper,8
-\input_mssql_tables.sql,varbinary,7
-\input_mssql_tables.sql,varchar,4
-\input_mssql_tables.sql,version,2
-\input_mssql_tables.sql,xml,7
-\input_mssql_tables.sql,year,1
-\input_mssql_tables.sql,*,4
-\input_mssql_tables.sql,+,6
-\input_mssql_tables.sql,-,5
-\input_mssql_tables.sql,<>,1
-\input_mssql_tables.sql,>=,49
-\input_mssql_tables.sql,>,16
-\input_mssql_views.sql,=,82
-\input_mssql_views.sql,and,1
-\input_mssql_views.sql,apply,7
-\input_mssql_views.sql,as,210
-\input_mssql_views.sql,at,9
-\input_mssql_views.sql,avg,2
-\input_mssql_views.sql,case,9
-\input_mssql_views.sql,category,2
-\input_mssql_views.sql,coalesce,2
-\input_mssql_views.sql,convert,10
-\input_mssql_views.sql,count,5
-\input_mssql_views.sql,count_big,4
-\input_mssql_views.sql,create view,43
-\input_mssql_views.sql,create,12
-\input_mssql_views.sql,cross,6
-\input_mssql_views.sql,ct,6
-\input_mssql_views.sql,dateadd,3
-\input_mssql_views.sql,datediff,5
-\input_mssql_views.sql,datetime,6
-\input_mssql_views.sql,day,6
-\input_mssql_views.sql,degree,1
-\input_mssql_views.sql,description,1
-\input_mssql_views.sql,else,9
-\input_mssql_views.sql,end,9
-\input_mssql_views.sql,first,1
-\input_mssql_views.sql,for,1
-\input_mssql_views.sql,format,2
-\input_mssql_views.sql,from,45
-\input_mssql_views.sql,getdate,8
-\input_mssql_views.sql,go,40
-\input_mssql_views.sql,group by,12
-\input_mssql_views.sql,group,1
-\input_mssql_views.sql,having,2
-\input_mssql_views.sql,in,2
-\input_mssql_views.sql,index,12
-\input_mssql_views.sql,inner join,56
-\input_mssql_views.sql,integer,4
-\input_mssql_views.sql,is not null,3
-\input_mssql_views.sql,is null,2
-\input_mssql_views.sql,last,1
-\input_mssql_views.sql,left outer join,16
-\input_mssql_views.sql,left,2
-\input_mssql_views.sql,level,1
-\input_mssql_views.sql,ltrim,2
-\input_mssql_views.sql,model,8
-\input_mssql_views.sql,month,16
-\input_mssql_views.sql,name,41
-\input_mssql_views.sql,not in,2
-\input_mssql_views.sql,on,88
-\input_mssql_views.sql,outer,1
-\input_mssql_views.sql,pivot,1
-\input_mssql_views.sql,print,4
-\input_mssql_views.sql,ref,72
-\input_mssql_views.sql,replace,6
-\input_mssql_views.sql,resume,17
-\input_mssql_views.sql,right,2
-\input_mssql_views.sql,rtrim,2
-\input_mssql_views.sql,select,45
-\input_mssql_views.sql,set,4
-\input_mssql_views.sql,state,3
-\input_mssql_views.sql,store,3
-\input_mssql_views.sql,style,1
-\input_mssql_views.sql,sum,15
-\input_mssql_views.sql,summary,1
-\input_mssql_views.sql,then,17
-\input_mssql_views.sql,title,8
-\input_mssql_views.sql,type,1
-\input_mssql_views.sql,unique,12
-\input_mssql_views.sql,value,96
-\input_mssql_views.sql,when,17
-\input_mssql_views.sql,where,14
-\input_mssql_views.sql,with,12
-\input_mssql_views.sql,year,5
-\input_mssql_views.sql,*,3
-\input_mssql_views.sql,+,12
-\input_mssql_views.sql,-,4
-\input_mssql_views.sql,/,1
-\input_mssql_views.sql,<,5
-\input_mssql_views.sql,>=,2
-\input_mssql_views.sql,>,5
+\SqlServ_triggers_demo.sql,=,10
+\SqlServ_triggers_demo.sql,after,8
+\SqlServ_triggers_demo.sql,and,2
+\SqlServ_triggers_demo.sql,as,14
+\SqlServ_triggers_demo.sql,avg,1
+\SqlServ_triggers_demo.sql,begin,13
+\SqlServ_triggers_demo.sql,create trigger,10
+\SqlServ_triggers_demo.sql,datediff,2
+\SqlServ_triggers_demo.sql,day,2
+\SqlServ_triggers_demo.sql,delete,4
+\SqlServ_triggers_demo.sql,end,13
+\SqlServ_triggers_demo.sql,exists,3
+\SqlServ_triggers_demo.sql,from,18
+\SqlServ_triggers_demo.sql,getdate,3
+\SqlServ_triggers_demo.sql,go,10
+\SqlServ_triggers_demo.sql,if,3
+\SqlServ_triggers_demo.sql,in,5
+\SqlServ_triggers_demo.sql,inner join,5
+\SqlServ_triggers_demo.sql,insert,8
+\SqlServ_triggers_demo.sql,instead,2
+\SqlServ_triggers_demo.sql,into,4
+\SqlServ_triggers_demo.sql,not in,1
+\SqlServ_triggers_demo.sql,of,2
+\SqlServ_triggers_demo.sql,on,15
+\SqlServ_triggers_demo.sql,return,2
+\SqlServ_triggers_demo.sql,rollback,1
+\SqlServ_triggers_demo.sql,select,13
+\SqlServ_triggers_demo.sql,set,3
+\SqlServ_triggers_demo.sql,transaction,1
+\SqlServ_triggers_demo.sql,update,7
+\SqlServ_triggers_demo.sql,where,11
+\SqlServ_triggers_demo.sql,-,2
+\SqlServ_triggers_demo.sql,<>,1
+\SqlServ_triggers_demo.sql,<,2
+\SqlServ_triggers_demo.sql,>,2
+\SQ_SRV_etl_demo.sql,=,15
+\SQ_SRV_etl_demo.sql,and,1
+\SQ_SRV_etl_demo.sql,as,10
+\SQ_SRV_etl_demo.sql,getdate,4
+\SQ_SRV_etl_demo.sql,insert,5
+\SQ_SRV_etl_demo.sql,into,5
+\SQ_SRV_etl_demo.sql,merge,5
+\SQ_SRV_etl_demo.sql,on,5
+\SQ_SRV_etl_demo.sql,set,5
+\SQ_SRV_etl_demo.sql,source,34
+\SQ_SRV_etl_demo.sql,target,20
+\SQ_SRV_etl_demo.sql,then,10
+\SQ_SRV_etl_demo.sql,update,5
+\SQ_SRV_etl_demo.sql,using,5
+\SQ_SRV_etl_demo.sql,values,5
+\SQ_SRV_etl_demo.sql,when not matched,5
+\SQ_SRV_etl_demo.sql,when matched,5
+\SQ_SRV_function1_demo.sql,=,2
+\SQ_SRV_function1_demo.sql,as,1
+\SQ_SRV_function1_demo.sql,begin,1
+\SQ_SRV_function1_demo.sql,count,1
+\SQ_SRV_function1_demo.sql,create function,1
+\SQ_SRV_function1_demo.sql,declare,1
+\SQ_SRV_function1_demo.sql,end,1
+\SQ_SRV_function1_demo.sql,from,1
+\SQ_SRV_function1_demo.sql,int,3
+\SQ_SRV_function1_demo.sql,return,1
+\SQ_SRV_function1_demo.sql,returns,1
+\SQ_SRV_function1_demo.sql,select,1
+\SQ_SRV_function1_demo.sql,where,1
+\SQ_SRV_function1_demo.sql,*,1
+\SQ_SRV_function2_demo.sql,=,2
+\SQ_SRV_function2_demo.sql,as,1
+\SQ_SRV_function2_demo.sql,begin,1
+\SQ_SRV_function2_demo.sql,create function,1
+\SQ_SRV_function2_demo.sql,declare,1
+\SQ_SRV_function2_demo.sql,end,1
+\SQ_SRV_function2_demo.sql,from,1
+\SQ_SRV_function2_demo.sql,int,3
+\SQ_SRV_function2_demo.sql,isnull,1
+\SQ_SRV_function2_demo.sql,return,1
+\SQ_SRV_function2_demo.sql,returns,1
+\SQ_SRV_function2_demo.sql,select,1
+\SQ_SRV_function2_demo.sql,sum,1
+\SQ_SRV_function2_demo.sql,where,1
+\SQ_SRV_function3_demo.sql,=,2
+\SQ_SRV_function3_demo.sql,as,1
+\SQ_SRV_function3_demo.sql,begin,1
+\SQ_SRV_function3_demo.sql,create function,1
+\SQ_SRV_function3_demo.sql,decimal,2
+\SQ_SRV_function3_demo.sql,declare,1
+\SQ_SRV_function3_demo.sql,end,1
+\SQ_SRV_function3_demo.sql,from,1
+\SQ_SRV_function3_demo.sql,int,1
+\SQ_SRV_function3_demo.sql,isnull,1
+\SQ_SRV_function3_demo.sql,return,1
+\SQ_SRV_function3_demo.sql,returns,1
+\SQ_SRV_function3_demo.sql,select,1
+\SQ_SRV_function3_demo.sql,sum,1
+\SQ_SRV_function3_demo.sql,where,1
+\SQ_SRV_function3_demo.sql,*,1
+\SQ_SRV_function4_demo.sql,=,2
+\SQ_SRV_function4_demo.sql,as,1
+\SQ_SRV_function4_demo.sql,begin,1
+\SQ_SRV_function4_demo.sql,create function,1
+\SQ_SRV_function4_demo.sql,decimal,2
+\SQ_SRV_function4_demo.sql,declare,1
+\SQ_SRV_function4_demo.sql,end,1
+\SQ_SRV_function4_demo.sql,from,1
+\SQ_SRV_function4_demo.sql,int,1
+\SQ_SRV_function4_demo.sql,isnull,1
+\SQ_SRV_function4_demo.sql,return,1
+\SQ_SRV_function4_demo.sql,returns,1
+\SQ_SRV_function4_demo.sql,select,1
+\SQ_SRV_function4_demo.sql,sum,1
+\SQ_SRV_function4_demo.sql,where,1
+\SQ_SRV_functions_demo.sql,=,8
+\SQ_SRV_functions_demo.sql,as,4
+\SQ_SRV_functions_demo.sql,begin,4
+\SQ_SRV_functions_demo.sql,count,1
+\SQ_SRV_functions_demo.sql,create function,4
+\SQ_SRV_functions_demo.sql,decimal,4
+\SQ_SRV_functions_demo.sql,declare,4
+\SQ_SRV_functions_demo.sql,end,4
+\SQ_SRV_functions_demo.sql,from,4
+\SQ_SRV_functions_demo.sql,int,8
+\SQ_SRV_functions_demo.sql,isnull,3
+\SQ_SRV_functions_demo.sql,return,4
+\SQ_SRV_functions_demo.sql,returns,4
+\SQ_SRV_functions_demo.sql,select,4
+\SQ_SRV_functions_demo.sql,sum,3
+\SQ_SRV_functions_demo.sql,where,4
+\SQ_SRV_functions_demo.sql,*,2
+\SQ_SRV_procedure10_demo.sql,as,2
+\SQ_SRV_procedure10_demo.sql,begin,1
+\SQ_SRV_procedure10_demo.sql,create procedure,1
+\SQ_SRV_procedure10_demo.sql,decimal,1
+\SQ_SRV_procedure10_demo.sql,end,1
+\SQ_SRV_procedure10_demo.sql,from,1
+\SQ_SRV_procedure10_demo.sql,group by,1
+\SQ_SRV_procedure10_demo.sql,having,1
+\SQ_SRV_procedure10_demo.sql,select,1
+\SQ_SRV_procedure10_demo.sql,sum,2
+\SQ_SRV_procedure10_demo.sql,>,1
+\SQ_SRV_procedure11_demo.sql,=,1
+\SQ_SRV_procedure11_demo.sql,and,3
+\SQ_SRV_procedure11_demo.sql,as,3
+\SQ_SRV_procedure11_demo.sql,begin,1
+\SQ_SRV_procedure11_demo.sql,between,2
+\SQ_SRV_procedure11_demo.sql,case,1
+\SQ_SRV_procedure11_demo.sql,count,1
+\SQ_SRV_procedure11_demo.sql,create table,1
+\SQ_SRV_procedure11_demo.sql,create procedure,1
+\SQ_SRV_procedure11_demo.sql,decimal,1
+\SQ_SRV_procedure11_demo.sql,drop table,1
+\SQ_SRV_procedure11_demo.sql,else,1
+\SQ_SRV_procedure11_demo.sql,end,2
+\SQ_SRV_procedure11_demo.sql,from,2
+\SQ_SRV_procedure11_demo.sql,group by,1
+\SQ_SRV_procedure11_demo.sql,insert,1
+\SQ_SRV_procedure11_demo.sql,int,2
+\SQ_SRV_procedure11_demo.sql,into,1
+\SQ_SRV_procedure11_demo.sql,on,1
+\SQ_SRV_procedure11_demo.sql,segment,2
+\SQ_SRV_procedure11_demo.sql,select,2
+\SQ_SRV_procedure11_demo.sql,set,2
+\SQ_SRV_procedure11_demo.sql,sum,1
+\SQ_SRV_procedure11_demo.sql,then,3
+\SQ_SRV_procedure11_demo.sql,update,1
+\SQ_SRV_procedure11_demo.sql,varchar,1
+\SQ_SRV_procedure11_demo.sql,when,3
+\SQ_SRV_procedure11_demo.sql,*,1
+\SQ_SRV_procedure11_demo.sql,>,2
+\SQ_SRV_procedure12_demo.sql,=,10
+\SQ_SRV_procedure12_demo.sql,as,5
+\SQ_SRV_procedure12_demo.sql,begin,1
+\SQ_SRV_procedure12_demo.sql,create procedure,1
+\SQ_SRV_procedure12_demo.sql,date,1
+\SQ_SRV_procedure12_demo.sql,dateadd,2
+\SQ_SRV_procedure12_demo.sql,day,2
+\SQ_SRV_procedure12_demo.sql,declare,1
+\SQ_SRV_procedure12_demo.sql,drop table,2
+\SQ_SRV_procedure12_demo.sql,end,1
+\SQ_SRV_procedure12_demo.sql,from,3
+\SQ_SRV_procedure12_demo.sql,getdate,1
+\SQ_SRV_procedure12_demo.sql,insert,2
+\SQ_SRV_procedure12_demo.sql,into,4
+\SQ_SRV_procedure12_demo.sql,join,1
+\SQ_SRV_procedure12_demo.sql,merge,2
+\SQ_SRV_procedure12_demo.sql,on,4
+\SQ_SRV_procedure12_demo.sql,select,2
+\SQ_SRV_procedure12_demo.sql,set,5
+\SQ_SRV_procedure12_demo.sql,source,15
+\SQ_SRV_procedure12_demo.sql,target,8
+\SQ_SRV_procedure12_demo.sql,then,4
+\SQ_SRV_procedure12_demo.sql,update,4
+\SQ_SRV_procedure12_demo.sql,upper,1
+\SQ_SRV_procedure12_demo.sql,using,2
+\SQ_SRV_procedure12_demo.sql,values,2
+\SQ_SRV_procedure12_demo.sql,when not matched,2
+\SQ_SRV_procedure12_demo.sql,when matched,2
+\SQ_SRV_procedure12_demo.sql,where,2
+\SQ_SRV_procedure12_demo.sql,*,3
+\SQ_SRV_procedure12_demo.sql,-,2
+\SQ_SRV_procedure12_demo.sql,>=,2
+\SQ_SRV_procedure1_demo.sql,=,13
+\SQ_SRV_procedure1_demo.sql,as,1
+\SQ_SRV_procedure1_demo.sql,begin try,1
+\SQ_SRV_procedure1_demo.sql,begin transaction,1
+\SQ_SRV_procedure1_demo.sql,begin catch,1
+\SQ_SRV_procedure1_demo.sql,begin,6
+\SQ_SRV_procedure1_demo.sql,commit,1
+\SQ_SRV_procedure1_demo.sql,create procedure,1
+\SQ_SRV_procedure1_demo.sql,decimal,1
+\SQ_SRV_procedure1_demo.sql,declare,1
+\SQ_SRV_procedure1_demo.sql,else,2
+\SQ_SRV_procedure1_demo.sql,end try,1
+\SQ_SRV_procedure1_demo.sql,end catch,1
+\SQ_SRV_procedure1_demo.sql,end,6
+\SQ_SRV_procedure1_demo.sql,error_message,1
+\SQ_SRV_procedure1_demo.sql,from,1
+\SQ_SRV_procedure1_demo.sql,if,5
+\SQ_SRV_procedure1_demo.sql,insert,1
+\SQ_SRV_procedure1_demo.sql,int,2
+\SQ_SRV_procedure1_demo.sql,into,1
+\SQ_SRV_procedure1_demo.sql,is null,2
+\SQ_SRV_procedure1_demo.sql,null,5
+\SQ_SRV_procedure1_demo.sql,nvarchar,1
+\SQ_SRV_procedure1_demo.sql,on,1
+\SQ_SRV_procedure1_demo.sql,print,3
+\SQ_SRV_procedure1_demo.sql,return,2
+\SQ_SRV_procedure1_demo.sql,rollback,1
+\SQ_SRV_procedure1_demo.sql,select,1
+\SQ_SRV_procedure1_demo.sql,set,3
+\SQ_SRV_procedure1_demo.sql,throw,1
+\SQ_SRV_procedure1_demo.sql,transaction,2
+\SQ_SRV_procedure1_demo.sql,update,1
+\SQ_SRV_procedure1_demo.sql,values,1
+\SQ_SRV_procedure1_demo.sql,varchar,3
+\SQ_SRV_procedure1_demo.sql,where,2
+\SQ_SRV_procedure1_demo.sql,+,1
+\SQ_SRV_procedure2_demo.sql,=,3
+\SQ_SRV_procedure2_demo.sql,as,1
+\SQ_SRV_procedure2_demo.sql,begin,1
+\SQ_SRV_procedure2_demo.sql,create procedure,1
+\SQ_SRV_procedure2_demo.sql,end,1
+\SQ_SRV_procedure2_demo.sql,getdate,1
+\SQ_SRV_procedure2_demo.sql,int,2
+\SQ_SRV_procedure2_demo.sql,set,1
+\SQ_SRV_procedure2_demo.sql,update,1
+\SQ_SRV_procedure2_demo.sql,where,1
+\SQ_SRV_procedure3_demo.sql,as,1
+\SQ_SRV_procedure3_demo.sql,begin,1
+\SQ_SRV_procedure3_demo.sql,create procedure,1
+\SQ_SRV_procedure3_demo.sql,date,1
+\SQ_SRV_procedure3_demo.sql,decimal,1
+\SQ_SRV_procedure3_demo.sql,end,1
+\SQ_SRV_procedure3_demo.sql,insert,1
+\SQ_SRV_procedure3_demo.sql,int,1
+\SQ_SRV_procedure3_demo.sql,into,1
+\SQ_SRV_procedure3_demo.sql,nvarchar,1
+\SQ_SRV_procedure3_demo.sql,values,1
+\SQ_SRV_procedure4_demo.sql,=,2
+\SQ_SRV_procedure4_demo.sql,as,1
+\SQ_SRV_procedure4_demo.sql,begin,1
+\SQ_SRV_procedure4_demo.sql,create procedure,1
+\SQ_SRV_procedure4_demo.sql,end,1
+\SQ_SRV_procedure4_demo.sql,int,1
+\SQ_SRV_procedure4_demo.sql,nvarchar,1
+\SQ_SRV_procedure4_demo.sql,set,1
+\SQ_SRV_procedure4_demo.sql,update,1
+\SQ_SRV_procedure4_demo.sql,where,1
+\SQ_SRV_procedure5_demo.sql,=,1
+\SQ_SRV_procedure5_demo.sql,as,1
+\SQ_SRV_procedure5_demo.sql,begin,1
+\SQ_SRV_procedure5_demo.sql,create procedure,1
+\SQ_SRV_procedure5_demo.sql,desc,1
+\SQ_SRV_procedure5_demo.sql,end,1
+\SQ_SRV_procedure5_demo.sql,from,1
+\SQ_SRV_procedure5_demo.sql,int,1
+\SQ_SRV_procedure5_demo.sql,order by,1
+\SQ_SRV_procedure5_demo.sql,select,1
+\SQ_SRV_procedure5_demo.sql,where,1
+\SQ_SRV_procedure6_demo.sql,=,3
+\SQ_SRV_procedure6_demo.sql,as,1
+\SQ_SRV_procedure6_demo.sql,begin,1
+\SQ_SRV_procedure6_demo.sql,create procedure,1
+\SQ_SRV_procedure6_demo.sql,date,1
+\SQ_SRV_procedure6_demo.sql,end,1
+\SQ_SRV_procedure6_demo.sql,getdate,1
+\SQ_SRV_procedure6_demo.sql,insert,1
+\SQ_SRV_procedure6_demo.sql,int,3
+\SQ_SRV_procedure6_demo.sql,into,1
+\SQ_SRV_procedure6_demo.sql,set,1
+\SQ_SRV_procedure6_demo.sql,update,1
+\SQ_SRV_procedure6_demo.sql,values,1
+\SQ_SRV_procedure6_demo.sql,where,1
+\SQ_SRV_procedure6_demo.sql,+,1
+\SQ_SRV_procedure7_demo.sql,=,1
+\SQ_SRV_procedure7_demo.sql,as,3
+\SQ_SRV_procedure7_demo.sql,avg,1
+\SQ_SRV_procedure7_demo.sql,begin,1
+\SQ_SRV_procedure7_demo.sql,count,1
+\SQ_SRV_procedure7_demo.sql,create procedure,1
+\SQ_SRV_procedure7_demo.sql,datediff,1
+\SQ_SRV_procedure7_demo.sql,day,1
+\SQ_SRV_procedure7_demo.sql,end,1
+\SQ_SRV_procedure7_demo.sql,from,1
+\SQ_SRV_procedure7_demo.sql,group by,1
+\SQ_SRV_procedure7_demo.sql,int,1
+\SQ_SRV_procedure7_demo.sql,select,1
+\SQ_SRV_procedure7_demo.sql,where,1
+\SQ_SRV_procedure8_demo.sql,=,2
+\SQ_SRV_procedure8_demo.sql,as,1
+\SQ_SRV_procedure8_demo.sql,begin,1
+\SQ_SRV_procedure8_demo.sql,create procedure,1
+\SQ_SRV_procedure8_demo.sql,date,1
+\SQ_SRV_procedure8_demo.sql,end,1
+\SQ_SRV_procedure8_demo.sql,getdate,1
+\SQ_SRV_procedure8_demo.sql,insert,1
+\SQ_SRV_procedure8_demo.sql,int,1
+\SQ_SRV_procedure8_demo.sql,into,1
+\SQ_SRV_procedure8_demo.sql,nvarchar,2
+\SQ_SRV_procedure8_demo.sql,set,1
+\SQ_SRV_procedure8_demo.sql,update,1
+\SQ_SRV_procedure8_demo.sql,values,1
+\SQ_SRV_procedure8_demo.sql,where,1
+\SQ_SRV_procedure9_demo.sql,as,1
+\SQ_SRV_procedure9_demo.sql,begin,1
+\SQ_SRV_procedure9_demo.sql,create procedure,1
+\SQ_SRV_procedure9_demo.sql,end,1
+\SQ_SRV_procedure9_demo.sql,from,1
+\SQ_SRV_procedure9_demo.sql,select,1
+\SQ_SRV_procedure9_demo.sql,where,1
+\SQ_SRV_procedure9_demo.sql,<,1
+\SQ_SRV_procedures_demo.sql,=,3
+\SQ_SRV_procedures_demo.sql,alter procedure,1
+\SQ_SRV_procedures_demo.sql,as,4
+\SQ_SRV_procedures_demo.sql,begin,4
+\SQ_SRV_procedures_demo.sql,category,1
+\SQ_SRV_procedures_demo.sql,create procedure,3
+\SQ_SRV_procedures_demo.sql,decimal,1
+\SQ_SRV_procedures_demo.sql,end,4
+\SQ_SRV_procedures_demo.sql,from,2
+\SQ_SRV_procedures_demo.sql,getdate,2
+\SQ_SRV_procedures_demo.sql,insert,1
+\SQ_SRV_procedures_demo.sql,int,4
+\SQ_SRV_procedures_demo.sql,into,1
+\SQ_SRV_procedures_demo.sql,name,3
+\SQ_SRV_procedures_demo.sql,nvarchar,2
+\SQ_SRV_procedures_demo.sql,order by,1
+\SQ_SRV_procedures_demo.sql,select,2
+\SQ_SRV_procedures_demo.sql,set,1
+\SQ_SRV_procedures_demo.sql,update,1
+\SQ_SRV_procedures_demo.sql,values,1
+\SQ_SRV_procedures_demo.sql,where,1
+\SQ_SRV_tables_demo.sql,as,1
+\SQ_SRV_tables_demo.sql,bit,1
+\SQ_SRV_tables_demo.sql,capacity,1
+\SQ_SRV_tables_demo.sql,category,1
+\SQ_SRV_tables_demo.sql,char,1
+\SQ_SRV_tables_demo.sql,check,6
+\SQ_SRV_tables_demo.sql,create table,15
+\SQ_SRV_tables_demo.sql,date,1
+\SQ_SRV_tables_demo.sql,datetime,10
+\SQ_SRV_tables_demo.sql,decimal,5
+\SQ_SRV_tables_demo.sql,default,10
+\SQ_SRV_tables_demo.sql,foreign,10
+\SQ_SRV_tables_demo.sql,geography,1
+\SQ_SRV_tables_demo.sql,getdate,9
+\SQ_SRV_tables_demo.sql,identity,11
+\SQ_SRV_tables_demo.sql,in,6
+\SQ_SRV_tables_demo.sql,int,29
+\SQ_SRV_tables_demo.sql,key,10
+\SQ_SRV_tables_demo.sql,location,1
+\SQ_SRV_tables_demo.sql,manager,1
+\SQ_SRV_tables_demo.sql,max,2
+\SQ_SRV_tables_demo.sql,money,1
+\SQ_SRV_tables_demo.sql,newid,1
+\SQ_SRV_tables_demo.sql,not null,14
+\SQ_SRV_tables_demo.sql,nvarchar,33
+\SQ_SRV_tables_demo.sql,primary key,15
+\SQ_SRV_tables_demo.sql,references,10
+\SQ_SRV_tables_demo.sql,returns,1
+\SQ_SRV_tables_demo.sql,text,1
+\SQ_SRV_tables_demo.sql,unique,1
+\SQ_SRV_tables_demo.sql,uniqueidentifier,1
+\SQ_SRV_tables_demo.sql,userid,1
+\SQ_SRV_tables_demo.sql,varbinary,1
+\SQ_SRV_tables_demo.sql,varchar,1
+\SQ_SRV_tables_demo.sql,xml,1
+\SQ_SRV_tables_demo.sql,*,1
+\SQ_SRV_triggers_demo.sql,=,10
+\SQ_SRV_triggers_demo.sql,after,8
+\SQ_SRV_triggers_demo.sql,and,2
+\SQ_SRV_triggers_demo.sql,as,14
+\SQ_SRV_triggers_demo.sql,avg,1
+\SQ_SRV_triggers_demo.sql,begin,13
+\SQ_SRV_triggers_demo.sql,create trigger,10
+\SQ_SRV_triggers_demo.sql,datediff,2
+\SQ_SRV_triggers_demo.sql,day,2
+\SQ_SRV_triggers_demo.sql,delete,4
+\SQ_SRV_triggers_demo.sql,end,13
+\SQ_SRV_triggers_demo.sql,exists,3
+\SQ_SRV_triggers_demo.sql,from,18
+\SQ_SRV_triggers_demo.sql,getdate,3
+\SQ_SRV_triggers_demo.sql,go,10
+\SQ_SRV_triggers_demo.sql,if,3
+\SQ_SRV_triggers_demo.sql,in,5
+\SQ_SRV_triggers_demo.sql,inner join,5
+\SQ_SRV_triggers_demo.sql,insert,8
+\SQ_SRV_triggers_demo.sql,instead,2
+\SQ_SRV_triggers_demo.sql,into,4
+\SQ_SRV_triggers_demo.sql,not in,1
+\SQ_SRV_triggers_demo.sql,of,2
+\SQ_SRV_triggers_demo.sql,on,15
+\SQ_SRV_triggers_demo.sql,return,2
+\SQ_SRV_triggers_demo.sql,rollback,1
+\SQ_SRV_triggers_demo.sql,select,13
+\SQ_SRV_triggers_demo.sql,set,3
+\SQ_SRV_triggers_demo.sql,transaction,1
+\SQ_SRV_triggers_demo.sql,update,7
+\SQ_SRV_triggers_demo.sql,where,11
+\SQ_SRV_triggers_demo.sql,-,2
+\SQ_SRV_triggers_demo.sql,<>,1
+\SQ_SRV_triggers_demo.sql,<,2
+\SQ_SRV_triggers_demo.sql,>,2
+\SQ_SRV_views_demo.sql,as,11
+\SQ_SRV_views_demo.sql,avg,1
+\SQ_SRV_views_demo.sql,category,1
+\SQ_SRV_views_demo.sql,count,1
+\SQ_SRV_views_demo.sql,create view,5
+\SQ_SRV_views_demo.sql,dateadd,1
+\SQ_SRV_views_demo.sql,datediff,1
+\SQ_SRV_views_demo.sql,day,2
+\SQ_SRV_views_demo.sql,from,5
+\SQ_SRV_views_demo.sql,getdate,1
+\SQ_SRV_views_demo.sql,group by,1
+\SQ_SRV_views_demo.sql,json_value,2
+\SQ_SRV_views_demo.sql,long,1
+\SQ_SRV_views_demo.sql,select,5
+\SQ_SRV_views_demo.sql,where,2
+\SQ_SRV_views_demo.sql,-,1
+\SQ_SRV_views_demo.sql,>=,1
+\SQ_SRV_views_demo.sql,>,1

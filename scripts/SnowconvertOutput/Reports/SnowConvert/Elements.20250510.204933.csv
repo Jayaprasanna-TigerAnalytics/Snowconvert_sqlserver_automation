@@ -1,0 +1,96 @@
+SessionID,Category,Grammar Element,File Type,Total Count,Not Converted Count (Self)
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,VALUES,SQL,14,8
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,NEWID,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,AS query_expr,SQL,5,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,<>,SQL,2,2
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Control of Flow,BEGIN...END,SQL,55,29
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,CREATE TABLE,SQL,16,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,INTO,SQL,2,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,IN,SQL,16,16
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,ALTER TABLE computed_column_definition,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,=,SQL,84,23
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,INT,SQL,63,2
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,ON,SQL,11,10
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,*,SQL,4,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,ISNULL,SQL,6,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,NOT NULL COLUMN,SQL,14,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DML,MERGE,SQL,7,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,[Create Table] CHECK,SQL,6,6
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,WHERE,SQL,44,23
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,COUNT,SQL,5,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,DROP TABLE,SQL,3,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,NOT IN,SQL,2,2
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,VARCHAR,SQL,5,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,JSON_VALUE,SQL,2,2
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,WHEN MATCHED,SQL,7,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,DECIMAL,SQL,18,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,JOIN,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,UPPER,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,DATETIME,SQL,10,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,BETWEEN,SQL,2,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,DESC,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,REFERENCES COLUMN,SQL,10,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,INNER JOIN,SQL,10,10
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,GEOGRAPHY,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,CHAR,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,NULL,SQL,7,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,ASSIGNMENT EXPR,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,GROUP BY,SQL,4,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,DATEDIFF,SQL,6,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,ERROR_MESSAGE,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,>=,SQL,3,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Set Operator,EXCEPT,SQL,40,24
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,<,SQL,5,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,-,SQL,7,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,<TSqlsBatch-UNKNOWN>,GOTO / LABEL,SQL,41,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,EXISTS / NOT EXISTS,SQL,6,6
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,CREATE TRIGGER,SQL,20,20
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,+,SQL,2,1
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Control of Flow,THROW,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,UNIQUEIDENTIFIER,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,MONEY,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,CREATE TABLE IDENTITY (Property),SQL,11,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,CREATE FUNCTION,SQL,8,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,DATE,SQL,5,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,SELECT,SQL,50,28
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Transaction,BEGIN TRANSACTION,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,CREATE VIEW,SQL,5,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,SET @local_variable,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DML,INSERT,SQL,14,8
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,SET,SQL,3,3
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,DATEADD,SQL,3,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,DECLARE VARIABLE,SQL,10,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Transaction,ROLLBACK TRANSACTION,SQL,3,3
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,TEXT,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,>,SQL,8,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,DML,DELETE,SQL,4,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Transaction,COMMIT TRANSACTION,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,BIT,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,RAISERROR,SQL,8,6
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,WHEN NOT MATCHED,SQL,7,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,PRIMARY KEY COLUMN,SQL,15,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,AVG,SQL,4,2
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,PRINT,SQL,3,3
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,GETDATE,SQL,26,7
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,FROM,SQL,57,34
+0196bac7-895c-71d0-bec4-cde3b3063d35,DML,INTO,SQL,14,8
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,XML,SQL,1,1
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL,CREATE PROCEDURE,SQL,16,3
+0196bac7-895c-71d0-bec4-cde3b3063d35,DML,UPDATE,SQL,15,7
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,SET,SQL,15,7
+0196bac7-895c-71d0-bec4-cde3b3063d35,Functions & Expressions,SUM,SQL,9,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,DEFAULT COLUMN,SQL,10,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,RETURNS,SQL,8,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Control of Flow,IF...ELSE,SQL,9,6
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,RETURN,SQL,14,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,THEN,SQL,3,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,DEFAULT,SQL,10,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,VARBINARY,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,ORDER BY,SQL,2,1
+0196bac7-895c-71d0-bec4-cde3b3063d35,DDL Content,UNIQUE COLUMN,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Operator,AND,SQL,6,4
+0196bac7-895c-71d0-bec4-cde3b3063d35,Query,HAVING,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Data Type,NVARCHAR,SQL,40,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement - Control of Flow,SEARCHED CASE EXPRESSION,SQL,1,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,Statement,DECLARE,SQL,10,0
+0196bac7-895c-71d0-bec4-cde3b3063d35,<TSqlsGo-UNKNOWN>,GO,SQL,20,0

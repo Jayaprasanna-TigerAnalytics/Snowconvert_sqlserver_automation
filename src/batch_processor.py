@@ -66,8 +66,8 @@ class SnowConvertProcessor:
 
         # Build SnowConvert command
         cmd = [
-            "C:\\Users\\suvam.ghosh\\Downloads\\SnowConvert-CLI-windows\\orchestrator\\snowct.exe",
-            #'snowct',
+            # "C:\\Users\\jayaprasanna.gan\\Downloads\\SnowConvert-CLI-windows\\orchestrator\\snowct.exe",
+            'snowct',
             f"{config['source']}",
             "--input", f"{str(Path(input_dir).absolute())}",
             "--output", f"{str(output_path.absolute())}"

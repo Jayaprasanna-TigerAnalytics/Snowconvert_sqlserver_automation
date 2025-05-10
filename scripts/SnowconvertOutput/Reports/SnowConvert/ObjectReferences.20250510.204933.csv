@@ -1,0 +1,61 @@
+PartitionKey,FileName,Caller_CodeUnit,Caller_CodeUnit_Database,Caller_CodeUnit_Schema,Caller_CodeUnit_Name,Caller_CodeUnit_FullName,Referenced_Element_Type,Referenced_Element_Database,Referenced_Element_Schema,Referenced_Element_Name,Referenced_Element_FullName,Line,Relation_Type
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_function3_demo.sql,CREATE FUNCTION,N/A,dbo,GetOrderTotal(INT),dbo.GetOrderTotal(INT),CREATE TABLE,N/A,N/A,OrderDetails,OrderDetails,6,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure11_demo.sql,CREATE PROCEDURE,N/A,N/A,CustomerSegmentation,CustomerSegmentation,CREATE TABLE,N/A,N/A,#CustomerSegments,#CustomerSegments,37,DROP
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure11_demo.sql,CREATE PROCEDURE,N/A,N/A,CustomerSegmentation,CustomerSegmentation,CREATE TABLE,N/A,N/A,#CustomerSegments,#CustomerSegments,34,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure11_demo.sql,CREATE PROCEDURE,N/A,N/A,CustomerSegmentation,CustomerSegmentation,CREATE TABLE,N/A,N/A,#CustomerSegments,#CustomerSegments,24,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure11_demo.sql,CREATE PROCEDURE,N/A,N/A,CustomerSegmentation,CustomerSegmentation,CREATE TABLE,N/A,N/A,#CustomerSegments,#CustomerSegments,15,INSERT
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure4_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_UpdateOrderStatus(INT,NVARCHAR)","sp_UpdateOrderStatus(INT,NVARCHAR)",CREATE TABLE,N/A,N/A,Orders,Orders,7,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_AutoReorderStock,trg_AutoReorderStock,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,128,SELECT - JOIN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,CREATE TABLE,N/A,N/A,Orders,Orders,101,DELETE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,CREATE TABLE,N/A,N/A,Orders,Orders,96,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateSupplierPerformance,trg_UpdateSupplierPerformance,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,80,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,70,DELETE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_CompleteOrderOnShipment,trg_CompleteOrderOnShipment,CREATE TABLE,N/A,N/A,Orders,Orders,54,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventOutOfStockOrders,trg_PreventOutOfStockOrders,CREATE TABLE,N/A,N/A,Inventory,Inventory,21,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateInventoryOnOrder,trg_UpdateInventoryOnOrder,CREATE TABLE,N/A,N/A,Inventory,Inventory,9,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingOrders,#StagingOrders,48,DROP
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingCustomers,#StagingCustomers,47,DROP
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingOrders,#StagingOrders,39,MERGE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingCustomers,#StagingCustomers,31,MERGE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingOrders,#StagingOrders,26,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingOrders,#StagingOrders,24,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,CREATE TABLE,N/A,N/A,#StagingCustomers,#StagingCustomers,20,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure9_demo.sql,CREATE PROCEDURE,N/A,N/A,sp_GetLowStockItems,sp_GetLowStockItems,CREATE TABLE,N/A,N/A,Inventory,Inventory,6,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure6_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_RecordSupplierDelivery(INT,INT,INT,DATE)","sp_RecordSupplierDelivery(INT,INT,INT,DATE)",CREATE TABLE,N/A,N/A,Inventory,Inventory,12,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_views_demo.sql,CREATE VIEW,N/A,N/A,vw_LocationInfo,vw_LocationInfo,CREATE TABLE,N/A,N/A,LocationInfo,LocationInfo,31,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_views_demo.sql,CREATE VIEW,N/A,N/A,vw_ProductCatalog,vw_ProductCatalog,CREATE TABLE,N/A,N/A,ProductCatalog,ProductCatalog,23,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_views_demo.sql,CREATE VIEW,N/A,N/A,vw_RecentCustomerOrders,vw_RecentCustomerOrders,CREATE TABLE,N/A,N/A,Orders,Orders,8,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_views_demo.sql,CREATE VIEW,N/A,N/A,vw_ActiveProducts,vw_ActiveProducts,CREATE TABLE,N/A,N/A,Inventory,Inventory,3,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Payments,Payments,CREATE TABLE,N/A,N/A,Orders,Orders,127,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Returns,Returns,CREATE TABLE,N/A,N/A,Products,Products,118,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Returns,Returns,CREATE TABLE,N/A,N/A,Orders,Orders,117,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Orders,Orders,CREATE TABLE,N/A,N/A,Customers,Customers,109,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Inventory,Inventory,CREATE TABLE,N/A,N/A,Warehouses,Warehouses,90,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Inventory,Inventory,CREATE TABLE,N/A,N/A,Products,Products,89,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Products,Products,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,71,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,OrderDetails,OrderDetails,CREATE TABLE,N/A,N/A,Products,Products,50,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,OrderDetails,OrderDetails,CREATE TABLE,N/A,N/A,Orders,Orders,49,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_tables_demo.sql,CREATE TABLE,N/A,N/A,Payments,Payments,CREATE TABLE,N/A,N/A,Orders,Orders,40,TABLE COLUMN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedures_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)","sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)",CREATE TABLE,N/A,N/A,Inventory,Inventory,19,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedures_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)","sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)",CREATE TABLE,N/A,N/A,Inventory,Inventory,9,INSERT
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_function2_demo.sql,CREATE FUNCTION,N/A,dbo,GetAvailableStock(INT),dbo.GetAvailableStock(INT),CREATE TABLE,N/A,N/A,Inventory,Inventory,6,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_functions_demo.sql,CREATE FUNCTION,N/A,dbo,GetTotalOrdersForCustomer(INT),dbo.GetTotalOrdersForCustomer(INT),CREATE TABLE,N/A,N/A,Orders,Orders,36,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_functions_demo.sql,CREATE FUNCTION,N/A,dbo,GetTotalOrdersForCustomer(INT),dbo.GetTotalOrdersForCustomer(INT),CREATE TABLE,N/A,N/A,OrderDetails,OrderDetails,26,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_functions_demo.sql,CREATE FUNCTION,N/A,dbo,GetTotalOrdersForCustomer(INT),dbo.GetTotalOrdersForCustomer(INT),CREATE TABLE,N/A,N/A,Inventory,Inventory,16,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_functions_demo.sql,CREATE FUNCTION,N/A,dbo,GetTotalOrdersForCustomer(INT),dbo.GetTotalOrdersForCustomer(INT),CREATE TABLE,N/A,N/A,Orders,Orders,6,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_function1_demo.sql,CREATE FUNCTION,N/A,dbo,GetTotalOrdersForCustomer(INT),dbo.GetTotalOrdersForCustomer(INT),CREATE TABLE,N/A,N/A,Orders,Orders,7,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_function4_demo.sql,CREATE FUNCTION,N/A,dbo,GetCustomerLifetimeValue(INT),dbo.GetCustomerLifetimeValue(INT),CREATE TABLE,N/A,N/A,Orders,Orders,6,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_AutoReorderStock,trg_AutoReorderStock,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,128,SELECT - JOIN
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,CREATE TABLE,N/A,N/A,Orders,Orders,101,DELETE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,CREATE TABLE,N/A,N/A,Orders,Orders,96,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateSupplierPerformance,trg_UpdateSupplierPerformance,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,80,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,CREATE TABLE,N/A,N/A,Suppliers,Suppliers,70,DELETE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_CompleteOrderOnShipment,trg_CompleteOrderOnShipment,CREATE TABLE,N/A,N/A,Orders,Orders,54,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventOutOfStockOrders,trg_PreventOutOfStockOrders,CREATE TABLE,N/A,N/A,Inventory,Inventory,21,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateInventoryOnOrder,trg_UpdateInventoryOnOrder,CREATE TABLE,N/A,N/A,Inventory,Inventory,9,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure3_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_PlaceOrder(INT,DATE,DECIMAL,NVARCHAR)","sp_PlaceOrder(INT,DATE,DECIMAL,NVARCHAR)",CREATE TABLE,N/A,N/A,Orders,Orders,9,INSERT
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure8_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_CreateShipment(INT,NVARCHAR,NVARCHAR,DATE)","sp_CreateShipment(INT,NVARCHAR,NVARCHAR,DATE)",CREATE TABLE,N/A,N/A,Orders,Orders,12,UPDATE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,CREATE TABLE,N/A,N/A,Inventory,Inventory,1,MERGE
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure5_demo.sql,CREATE PROCEDURE,N/A,N/A,sp_GetCustomerOrders(INT),sp_GetCustomerOrders(INT),CREATE TABLE,N/A,N/A,Orders,Orders,7,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure10_demo.sql,CREATE PROCEDURE,N/A,N/A,sp_GetHighValueCustomers(DECIMAL),sp_GetHighValueCustomers(DECIMAL),CREATE TABLE,N/A,N/A,Orders,Orders,7,SELECT - FROM
+0196bac7-895c-71d0-bec4-cde3b3063d35,SQ_SRV_procedure2_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_UpdateInventory(INT,INT)","sp_UpdateInventory(INT,INT)",CREATE TABLE,N/A,N/A,Inventory,Inventory,7,UPDATE

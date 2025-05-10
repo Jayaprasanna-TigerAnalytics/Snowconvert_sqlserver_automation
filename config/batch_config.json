@@ -1,11 +1,12 @@
 {
-    "input_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/inputForSnowconvert",
-    "preprocessed_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/inputForSnowconvert",
-    "converted_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowconvertOutput",
-    "snowflakefinalconvertoutput_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowflakeFinalConvertOutput",
-    "snowflakeerror_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowflakeErrorOutput",
-    "snowflakeoutput_dir": "C:/Users/suvam.ghosh/Desktop/snowconvertPython/scripts/SnowflakeOutput",
+    "input_dir": "C:/Users/jayaprasanna.gan/Desktop/snowconvert_automation/scripts/inputForSnowconvert",
+    "preprocessed_dir": "C:/Users/jayaprasanna.gan/Desktop/snowconvert_automation/scripts/inputForSnowconvert",
+    "converted_dir": "C:/Users/jayaprasanna.gan/Desktop/snowconvert_automation/scripts/SnowconvertOutput",
+    "snowflakefinalconvertoutput_dir": "C:/Users/jayaprasanna.gan/Desktop/snowconvert_automation/scripts/SnowflakeFinalConvertOutput",
+    "snowflakeerror_dir": "C:/Users/jayaprasanna.gan/Desktop/snowconvert_automation/scripts/SnowflakeErrorOutput",
+    "snowflakeoutput_dir": "C:/Users/jayaprasanna.gan/Desktop/snowconvert_automation/scripts/SnowflakeOutput",
     "snowconvert_config": {
         "source": "sql-server"
     }
 }
+

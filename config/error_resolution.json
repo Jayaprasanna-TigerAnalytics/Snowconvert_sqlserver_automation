@@ -132,7 +132,29 @@
                 ]
             }
         },
+
         "SSC-EWI-0042": {
+            "name": "interval_to_varchar_postprocessing",
+            "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
+            "category": "post-processing",
+            "severity": "Medium",
+            "priority": 1,
+            "patterns": [
+                "\\bVARIANT\\s+AS\\s+NVL\\s*\\(\\s*(?P<expr>[^,]+)"
+            ],
+            "regex_explanation": "This regex pattern is designed to match SQL Server CHECK constraints that contain the keyword 'IN'. It captures the entire CHECK constraint, including the condition inside the parentheses, and ensures that it is not followed by a closing parenthesis. This is used to identify potential issues with CHECK constraints in SQL Server.", 
+            "rule_handler": {
+                "function": "preprocess_variant_nvl_type",
+                "type": "replacement",
+                "validation_required": true
+            },
+            "test_cases": {
+                "matches": [
+                    ""
+                ]
+            }
+        },
+        "SSC-EWI-0043": {
             "name": "interval_to_varchar_postprocessing",
             "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
             "category": "post-processing",
@@ -153,7 +175,7 @@
                 ]
             }
         },
-        "SSC-EWI-0043": {
+        "SSC-EWI-0048": {
             "name": "interval_to_varchar_postprocessing",
             "description": "INTERVAL DAY TO SECOND DATA TYPE CONVERTED TO VARCHAR",
             "category": "post-processing",
@@ -219,6 +241,7 @@
                 ]
             }
         }
+   
         ,
 
         "SSC-EWI-0046": {

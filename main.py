@@ -12,8 +12,9 @@ class Main:
         self.logger = setup_logger()
         self.read_files=read_files()
         self.sf_script_run=read_sf()
+        self.close_sf_connect=read_sf()
         self.script_dir = Path(__file__).resolve().parent
-        self.batch_config_path = self.script_dir.parent /'snowconvertpython' /'config' / 'batch_config.json'
+        self.batch_config_path = self.script_dir.parent /'snowconvert_automation' /'config' / 'batch_config.json'
         self.config_manager = config()
         self.df=self.config_manager.create_dataframe()
         self.SnowConvertProcessor=SnowConvertProcessor()
@@ -87,14 +88,13 @@ class Main:
             if filename.endswith('.sql'):
                 file_path = os.path.join(source_path, filename)
                 self.sf_script_run.write_sql_file(file_path)
-                self.logger.info(f"{file_path} File is created successfully ...")
+                self.logger.info(f"{file_path} File is created successfully ...")   
                   
     def main(self):
-        # snowconvert_processor = SnowConvertProcessor()
         self.SnowConvertProcessor.driver()
         self.read_sql_file()
         self.execute_sf_script()
-        # source_path=obj.read_batch_config()['converted_dir']
+        self.close_sf_connect.close_connection()
         
 
 if __name__ == '__main__':
