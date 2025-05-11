@@ -1,0 +1,96 @@
+SessionID,Category,Grammar Element,File Type,Total Count,Not Converted Count (Self)
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,VALUES,SQL,14,8
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,NEWID,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,AS query_expr,SQL,5,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,<>,SQL,2,2
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Control of Flow,BEGIN...END,SQL,55,29
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,CREATE TABLE,SQL,16,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,INTO,SQL,2,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,IN,SQL,16,16
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,ALTER TABLE computed_column_definition,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,=,SQL,84,23
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,INT,SQL,63,2
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,ON,SQL,11,10
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,*,SQL,4,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,ISNULL,SQL,6,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,NOT NULL COLUMN,SQL,14,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DML,MERGE,SQL,7,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,[Create Table] CHECK,SQL,6,6
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,WHERE,SQL,44,23
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,COUNT,SQL,5,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,DROP TABLE,SQL,3,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,NOT IN,SQL,2,2
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,VARCHAR,SQL,5,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,JSON_VALUE,SQL,2,2
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,WHEN MATCHED,SQL,7,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,DECIMAL,SQL,18,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,JOIN,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,UPPER,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,DATETIME,SQL,10,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,BETWEEN,SQL,2,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,DESC,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,REFERENCES COLUMN,SQL,10,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,INNER JOIN,SQL,10,10
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,GEOGRAPHY,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,CHAR,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,NULL,SQL,7,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,ASSIGNMENT EXPR,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,GROUP BY,SQL,4,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,DATEDIFF,SQL,6,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,ERROR_MESSAGE,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,>=,SQL,3,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Set Operator,EXCEPT,SQL,40,24
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,<,SQL,5,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,-,SQL,7,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,<TSqlsBatch-UNKNOWN>,GOTO / LABEL,SQL,41,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,EXISTS / NOT EXISTS,SQL,6,6
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,CREATE TRIGGER,SQL,20,20
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,+,SQL,2,1
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Control of Flow,THROW,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,UNIQUEIDENTIFIER,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,MONEY,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,CREATE TABLE IDENTITY (Property),SQL,11,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,CREATE FUNCTION,SQL,8,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,DATE,SQL,5,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,SELECT,SQL,50,28
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Transaction,BEGIN TRANSACTION,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,CREATE VIEW,SQL,5,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,SET @local_variable,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DML,INSERT,SQL,14,8
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,SET,SQL,3,3
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,DATEADD,SQL,3,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,DECLARE VARIABLE,SQL,10,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Transaction,ROLLBACK TRANSACTION,SQL,3,3
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,TEXT,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,>,SQL,8,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DML,DELETE,SQL,4,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Transaction,COMMIT TRANSACTION,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,BIT,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,RAISERROR,SQL,8,6
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,WHEN NOT MATCHED,SQL,7,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,PRIMARY KEY COLUMN,SQL,15,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,AVG,SQL,4,2
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,PRINT,SQL,3,3
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,GETDATE,SQL,26,7
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,FROM,SQL,57,34
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DML,INTO,SQL,14,8
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,XML,SQL,1,1
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL,CREATE PROCEDURE,SQL,16,3
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DML,UPDATE,SQL,15,7
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,SET,SQL,15,7
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Functions & Expressions,SUM,SQL,9,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,DEFAULT COLUMN,SQL,10,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,RETURNS,SQL,8,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Control of Flow,IF...ELSE,SQL,9,6
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,RETURN,SQL,14,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,THEN,SQL,3,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,DEFAULT,SQL,10,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,VARBINARY,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,ORDER BY,SQL,2,1
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,DDL Content,UNIQUE COLUMN,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Operator,AND,SQL,6,4
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Query,HAVING,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Data Type,NVARCHAR,SQL,40,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement - Control of Flow,SEARCHED CASE EXPRESSION,SQL,1,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,Statement,DECLARE,SQL,10,0
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,<TSqlsGo-UNKNOWN>,GO,SQL,20,0

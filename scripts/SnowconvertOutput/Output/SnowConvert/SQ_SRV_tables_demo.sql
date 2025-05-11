@@ -10,7 +10,7 @@
     ProfileImage VARBINARY,
     Remarks TEXT
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE ProductCatalog (
@@ -18,7 +18,7 @@ CREATE OR REPLACE TABLE ProductCatalog (
     ProductName VARCHAR(100),
     ProductSpecs VARCHAR
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE EmployeeRecords (
@@ -26,7 +26,7 @@ CREATE OR REPLACE TABLE EmployeeRecords (
     FullName VARCHAR(100),
     EmployeeData VARIANT !!!RESOLVE EWI!!! /*** SSC-EWI-0036 - XML DATA TYPE CONVERTED TO VARIANT ***/!!!
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE LocationInfo (
@@ -34,7 +34,7 @@ CREATE OR REPLACE TABLE LocationInfo (
     LocationName VARCHAR(100),
     GeoCoordinates GEOGRAPHY
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE UserStatus (
@@ -42,7 +42,7 @@ CREATE OR REPLACE TABLE UserStatus (
     UserName VARCHAR(100),
     IsActive BOOLEAN
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Payments (
@@ -57,7 +57,7 @@ CREATE OR REPLACE TABLE Payments (
                        !!!RESOLVE EWI!!! /*** SSC-EWI-0035 - CHECK STATEMENT NOT SUPPORTED ***/!!!
  CHECK (Status IN ('Completed', 'Pending', 'Failed'))
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE OrderDetails (
@@ -68,7 +68,7 @@ CREATE OR REPLACE TABLE OrderDetails (
     UnitPrice DECIMAL(10,2) NOT NULL,
     TotalPrice VARIANT AS (Quantity * UnitPrice) /*** SSC-FDM-TS0014 - COMPUTED COLUMN WAS TRANSFORMED TO ITS SNOWFLAKE EQUIVALENT, FUNCTIONAL EQUIVALENCE VERIFICATION PENDING. ***/
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Suppliers (
@@ -82,7 +82,7 @@ CREATE OR REPLACE TABLE Suppliers (
     Country VARCHAR(100),
     CreatedAt TIMESTAMP_NTZ(3) DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Products (
@@ -94,7 +94,7 @@ CREATE OR REPLACE TABLE Products (
     UnitOfMeasure VARCHAR(50),
     CreatedAt TIMESTAMP_NTZ(3) DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Warehouses (
@@ -105,7 +105,7 @@ CREATE OR REPLACE TABLE Warehouses (
     Manager VARCHAR(255),
     CreatedAt TIMESTAMP_NTZ(3) DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Inventory (
@@ -115,7 +115,7 @@ CREATE OR REPLACE TABLE Inventory (
     Quantity INT NOT NULL,
     LastUpdated TIMESTAMP_NTZ(3) DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Customers (
@@ -129,7 +129,7 @@ CREATE OR REPLACE TABLE Customers (
     Country VARCHAR(100),
     CreatedAt TIMESTAMP_NTZ(3) DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Orders (
@@ -141,7 +141,7 @@ CREATE OR REPLACE TABLE Orders (
  CHECK (Status IN ('Pending', 'Shipped', 'Delivered', 'Cancelled')),
     TotalAmount DECIMAL(18,2) NOT NULL
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 CREATE OR REPLACE TABLE Returns (
@@ -155,7 +155,7 @@ CREATE OR REPLACE TABLE Returns (
                        !!!RESOLVE EWI!!! /*** SSC-EWI-0035 - CHECK STATEMENT NOT SUPPORTED ***/!!!
  CHECK (Status IN ('Pending', 'Approved', 'Rejected'))
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 
 --** SSC-FDM-0019 - SEMANTIC INFORMATION COULD NOT BE LOADED FOR Payments. CHECK IF THE NAME IS INVALID OR DUPLICATED. **
@@ -171,5 +171,5 @@ CREATE OR REPLACE TABLE Payments (
                        !!!RESOLVE EWI!!! /*** SSC-EWI-0035 - CHECK STATEMENT NOT SUPPORTED ***/!!!
  CHECK (Status IN ('Completed', 'Pending', 'Failed'))
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;

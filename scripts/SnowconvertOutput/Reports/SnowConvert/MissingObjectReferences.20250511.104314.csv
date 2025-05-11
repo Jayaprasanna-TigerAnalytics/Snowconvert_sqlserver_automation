@@ -1,0 +1,65 @@
+PartitionKey,FileName,Caller_CodeUnit,Caller_CodeUnit_Database,Caller_CodeUnit_Schema,Caller_CodeUnit_Name,Caller_CodeUnit_FullName,Referenced_Element_Database,Referenced_Element_Schema,Referenced_Element_Name,Referenced_Element_FullName,Line,Relation_Type
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedures_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)","sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)",N/A,N/A,Employee,Employee,35,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedures_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)","sp_AddProduct(NVARCHAR,NVARCHAR,INT,INT,DECIMAL)",N/A,N/A,Employee,Employee,27,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogDelayedShipments,trg_LogDelayedShipments,N/A,N/A,inserted,inserted,141,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogDelayedShipments,trg_LogDelayedShipments,N/A,N/A,ShipmentDelayLog,ShipmentDelayLog,139,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_AutoReorderStock,trg_AutoReorderStock,N/A,N/A,inserted,inserted,127,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_AutoReorderStock,trg_AutoReorderStock,N/A,N/A,PurchaseOrders,PurchaseOrders,125,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogInventoryRestock,trg_LogInventoryRestock,N/A,N/A,deleted,deleted,114,SELECT - JOIN
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogInventoryRestock,trg_LogInventoryRestock,N/A,N/A,inserted,inserted,113,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogInventoryRestock,trg_LogInventoryRestock,N/A,N/A,InventoryRestockLog,InventoryRestockLog,111,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,N/A,N/A,deleted,deleted,101,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,N/A,N/A,deleted,deleted,96,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateSupplierPerformance,trg_UpdateSupplierPerformance,N/A,N/A,inserted,inserted,86,UPDATE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateSupplierPerformance,trg_UpdateSupplierPerformance,N/A,N/A,PurchaseOrders,PurchaseOrders,83,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,N/A,N/A,deleted,deleted,70,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,N/A,N/A,deleted,deleted,65,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,N/A,N/A,PurchaseOrders,PurchaseOrders,65,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_CompleteOrderOnShipment,trg_CompleteOrderOnShipment,N/A,N/A,inserted,inserted,55,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogOrderStatusChange,trg_LogOrderStatusChange,N/A,N/A,deleted,deleted,41,SELECT - JOIN
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogOrderStatusChange,trg_LogOrderStatusChange,N/A,N/A,inserted,inserted,40,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogOrderStatusChange,trg_LogOrderStatusChange,N/A,N/A,OrderStatusLog,OrderStatusLog,38,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventOutOfStockOrders,trg_PreventOutOfStockOrders,N/A,N/A,inserted,inserted,22,SELECT - JOIN
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SqlServ_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateInventoryOnOrder,trg_UpdateInventoryOnOrder,N/A,N/A,inserted,inserted,10,UPDATE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure8_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_CreateShipment(INT,NVARCHAR,NVARCHAR,DATE)","sp_CreateShipment(INT,NVARCHAR,NVARCHAR,DATE)",N/A,N/A,Shipments,Shipments,9,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,DataWarehouse,dbo,FactOrders,DataWarehouse.dbo.FactOrders,38,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,DataWarehouse,dbo,DimCustomers,DataWarehouse.dbo.DimCustomers,30,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,N/A,N/A,CurrencyRates,CurrencyRates,27,UPDATE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,SourceDB,dbo,Orders,SourceDB.dbo.Orders,15,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure12_demo.sql,CREATE PROCEDURE,N/A,N/A,ETL_Process,ETL_Process,SourceDB,dbo,Customers,SourceDB.dbo.Customers,11,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_views_demo.sql,CREATE VIEW,N/A,N/A,vw_SupplierPerformance,vw_SupplierPerformance,N/A,N/A,PurchaseOrders,PurchaseOrders,14,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure6_demo.sql,CREATE PROCEDURE,N/A,N/A,"sp_RecordSupplierDelivery(INT,INT,INT,DATE)","sp_RecordSupplierDelivery(INT,INT,INT,DATE)",N/A,N/A,SupplierDeliveries,SupplierDeliveries,9,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure1_demo.sql,CREATE PROCEDURE,N/A,N/A,"ManageEmployeeData(VARCHAR,INT,VARCHAR,VARCHAR,INT,DECIMAL)","ManageEmployeeData(VARCHAR,INT,VARCHAR,VARCHAR,INT,DECIMAL)",N/A,N/A,Employees,Employees,52,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure1_demo.sql,CREATE PROCEDURE,N/A,N/A,"ManageEmployeeData(VARCHAR,INT,VARCHAR,VARCHAR,INT,DECIMAL)","ManageEmployeeData(VARCHAR,INT,VARCHAR,VARCHAR,INT,DECIMAL)",N/A,N/A,Employees,Employees,35,UPDATE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure1_demo.sql,CREATE PROCEDURE,N/A,N/A,"ManageEmployeeData(VARCHAR,INT,VARCHAR,VARCHAR,INT,DECIMAL)","ManageEmployeeData(VARCHAR,INT,VARCHAR,VARCHAR,INT,DECIMAL)",N/A,N/A,Employees,Employees,20,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure7_demo.sql,CREATE PROCEDURE,N/A,N/A,sp_CalculateSupplierPerformance(INT),sp_CalculateSupplierPerformance(INT),N/A,N/A,PurchaseOrders,PurchaseOrders,8,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,WarehouseStock_Staging,WarehouseStock_Staging,43,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,WarehouseStock,WarehouseStock,42,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,ShipmentTracking_Staging,ShipmentTracking_Staging,33,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,ShipmentTracking,ShipmentTracking,32,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,PurchaseOrder_Staging,PurchaseOrder_Staging,23,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,PurchaseOrder,PurchaseOrder,22,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,Supplier_Staging,Supplier_Staging,12,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,Supplier,Supplier,11,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_etl_demo.sql,MERGE,N/A,N/A,N/A,N/A,N/A,N/A,Inventory_Staging,Inventory_Staging,2,MERGE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_procedure11_demo.sql,CREATE PROCEDURE,N/A,N/A,CustomerSegmentation,CustomerSegmentation,N/A,N/A,SalesOrders,SalesOrders,20,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogDelayedShipments,trg_LogDelayedShipments,N/A,N/A,inserted,inserted,141,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogDelayedShipments,trg_LogDelayedShipments,N/A,N/A,ShipmentDelayLog,ShipmentDelayLog,139,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_AutoReorderStock,trg_AutoReorderStock,N/A,N/A,inserted,inserted,127,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_AutoReorderStock,trg_AutoReorderStock,N/A,N/A,PurchaseOrders,PurchaseOrders,125,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogInventoryRestock,trg_LogInventoryRestock,N/A,N/A,deleted,deleted,114,SELECT - JOIN
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogInventoryRestock,trg_LogInventoryRestock,N/A,N/A,inserted,inserted,113,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogInventoryRestock,trg_LogInventoryRestock,N/A,N/A,InventoryRestockLog,InventoryRestockLog,111,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,N/A,N/A,deleted,deleted,101,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventShippedOrderCancellation,trg_PreventShippedOrderCancellation,N/A,N/A,deleted,deleted,96,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateSupplierPerformance,trg_UpdateSupplierPerformance,N/A,N/A,inserted,inserted,86,UPDATE
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateSupplierPerformance,trg_UpdateSupplierPerformance,N/A,N/A,PurchaseOrders,PurchaseOrders,83,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,N/A,N/A,deleted,deleted,70,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,N/A,N/A,deleted,deleted,65,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventSupplierDeactivation,trg_PreventSupplierDeactivation,N/A,N/A,PurchaseOrders,PurchaseOrders,65,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_CompleteOrderOnShipment,trg_CompleteOrderOnShipment,N/A,N/A,inserted,inserted,55,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogOrderStatusChange,trg_LogOrderStatusChange,N/A,N/A,deleted,deleted,41,SELECT - JOIN
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogOrderStatusChange,trg_LogOrderStatusChange,N/A,N/A,inserted,inserted,40,SELECT - FROM
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_LogOrderStatusChange,trg_LogOrderStatusChange,N/A,N/A,OrderStatusLog,OrderStatusLog,38,INSERT
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_PreventOutOfStockOrders,trg_PreventOutOfStockOrders,N/A,N/A,inserted,inserted,22,SELECT - JOIN
+0196bdc2-b162-7ba4-ad81-0f7d7c41ffb8,SQ_SRV_triggers_demo.sql,CREATE TRIGGER,N/A,N/A,trg_UpdateInventoryOnOrder,trg_UpdateInventoryOnOrder,N/A,N/A,inserted,inserted,10,UPDATE

@@ -1,7 +1,8 @@
-﻿CREATE OR REPLACE FUNCTION dbo.GetAvailableStock (PRODUCTID INT)
+﻿--** SSC-FDM-0019 - SEMANTIC INFORMATION COULD NOT BE LOADED FOR dbo.GetAvailableStock. CHECK IF THE NAME IS INVALID OR DUPLICATED. **
+CREATE OR REPLACE FUNCTION dbo.GetAvailableStock (PRODUCTID INT)
 RETURNS INT
 LANGUAGE SQL
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 AS
 $$
     WITH CTE1 AS
@@ -15,5 +16,5 @@ $$
     SELECT
         NVL(STOCK, 0)
     FROM
-        CTE1
+        CTE0
 $$;

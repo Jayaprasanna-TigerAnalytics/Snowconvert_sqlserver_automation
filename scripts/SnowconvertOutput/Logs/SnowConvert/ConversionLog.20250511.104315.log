@@ -1,0 +1,179 @@
+[11-05-2025 10:43:16] Info: SourceLanguage set to Transact based on the appsettings configuration.
+[11-05-2025 10:43:41] Info: No path specified for loading additional transformation rules
+[11-05-2025 10:43:41] Info: Starting to analyze the input path 'C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert'...
+[11-05-2025 10:44:02] Info: EFProcess 638825570419155748 started
+[11-05-2025 10:44:02] Debug: TaskParam TaskProvider = Mobilize.Snow.ConversionTool.Tasks.SnowConvertTaskProvider
+[11-05-2025 10:44:02] Debug: TaskParam ConversionBeginTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:02] Debug: TaskParam workingSet = Value is not created.
+[11-05-2025 10:44:02] Debug: TaskParam ConversionBeginTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:02] Debug: TaskParam ConversionBeginTask.Enabled = True
+[11-05-2025 10:44:02] Debug: TaskParam Repository = Value is not created.
+[11-05-2025 10:44:02] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:04] Info: Found 23 Sql files with a total size of 24.77KB
+[11-05-2025 10:44:04] Info: Starting the parsing process of 23 files with 24.77KB of code, this might take a while...
+[11-05-2025 10:44:04] Info: Step 1/8 - Loading Code: STARTED
+[11-05-2025 10:44:06] Info: Step 1/8 - Loading Code: COMPLETED
+[11-05-2025 10:44:06] Debug: TaskParam TaskProvider = Mobilize.Snow.ConversionTool.Tasks.SnowConvertTaskProvider
+[11-05-2025 10:44:06] Debug: TaskParam SymbolTableFillingTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:06] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:06] Debug: TaskParam SymbolTableFillingTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:06] Debug: TaskParam SymbolTableFillingTask.Enabled = True
+[11-05-2025 10:44:06] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:06] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:07] Info: Step 2/8 - Semantic Analysis of Tables: STARTED
+[11-05-2025 10:44:07] Info: Step 2/8 - Semantic Analysis of Tables: COMPLETED
+[11-05-2025 10:44:07] Debug: TaskParam TaskProvider = Mobilize.Snow.ConversionTool.Tasks.SnowConvertTaskProvider
+[11-05-2025 10:44:07] Debug: TaskParam SymbolTableFillingSecondTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:07] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:07] Debug: TaskParam SymbolTableFillingSecondTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:07] Debug: TaskParam SymbolTableFillingSecondTask.Enabled = True
+[11-05-2025 10:44:07] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:07] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:07] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STARTED
+[11-05-2025 10:44:09] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORING
+[11-05-2025 10:44:14] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORED
+[11-05-2025 10:44:14] Info: Step 3/8 - Semantic Analysis of Top Level Objects: COMPLETED
+[11-05-2025 10:44:14] Debug: TaskParam TaskProvider = Mobilize.Snow.ConversionTool.Tasks.SnowConvertTaskProvider
+[11-05-2025 10:44:14] Debug: TaskParam PreProcessTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:14] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:14] Debug: TaskParam PreProcessTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:14] Debug: TaskParam PreProcessTask.Enabled = True
+[11-05-2025 10:44:14] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:14] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:14] Info: Step 4/8 - Pre-Processing: STARTED
+[11-05-2025 10:44:15] Info: Step 4/8 - Pre-Processing: COMPLETED
+[11-05-2025 10:44:15] Debug: TaskParam Lineage.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:15] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:15] Debug: TaskParam Lineage.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:15] Debug: TaskParam Lineage.Enabled = True
+[11-05-2025 10:44:15] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:15] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:15] Info: Step 5/8 - Data lineage analysis: STARTED
+[11-05-2025 10:44:16] Info: Step 5/8 - Data lineage analysis: COMPLETED
+[11-05-2025 10:44:16] Debug: TaskParam TaskProvider = Mobilize.Snow.ConversionTool.Tasks.SnowConvertTaskProvider
+[11-05-2025 10:44:16] Debug: TaskParam PreConversionAssessmentTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:16] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:16] Debug: TaskParam PreConversionAssessmentTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:16] Debug: TaskParam PreConversionAssessmentTask.Enabled = True
+[11-05-2025 10:44:16] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:16] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:16] Info: Step 6/8 - Pre-Conversion Assessment: STARTED
+[11-05-2025 10:44:16] Error: Error when collecting the PreConversion Assessment information the file C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\SQ_SRV_procedures_demo.sql, Error message: Stack empty.
+[11-05-2025 10:44:16] Debug: Exception for previous error: Stack empty.
+   at System.Collections.Generic.Stack`1.ThrowForEmptyStack()
+   at System.Collections.Generic.Stack`1.Peek()
+   at Mobilize.Snow.TSqlToSnow.TSqlPreConversionAssessmentContext.Pop(NestedStatementCategories category)
+   at Mobilize.Snow.TSqlToSnow.TSqlDdlPreConversionAssessment.ExitNodeLogic(SqlDataDefinitionLanguage node, TSqlPreConversionAssessmentContext ctx)
+   at Mobilize.Snow.Common.PreConversionAssessment.BaseAssessmentVisitor`2.ExitNode(TNode node, TContext ctx)
+   at Artinsoft.Common.Tools.Composition.ExtensibleAstDelegate`2.Artinsoft.Common.Visitor.IVisitorDelegate<Artinsoft.Common.AST.IAst,TContext>.ExitNode(IAst node, TContext ctx, UInt32 hLocalCtx)
+[11-05-2025 10:44:16] Error: Error when collecting the PreConversion Assessment information the file C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\SQ_SRV_procedures_demo.sql, Error message: Stack empty.
+[11-05-2025 10:44:16] Debug: Exception for previous error: Stack empty.
+   at System.Collections.Generic.Stack`1.ThrowForEmptyStack()
+   at System.Collections.Generic.Stack`1.Peek()
+   at Mobilize.Snow.TSqlToSnow.TSqlPreConversionAssessmentContext.Pop(NestedStatementCategories category)
+   at Mobilize.Snow.TSqlToSnow.TSqlDdlPreConversionAssessment.ExitNodeLogic(SqlDataDefinitionLanguage node, TSqlPreConversionAssessmentContext ctx)
+   at Mobilize.Snow.Common.PreConversionAssessment.BaseAssessmentVisitor`2.ExitNode(TNode node, TContext ctx)
+   at Artinsoft.Common.Tools.Composition.ExtensibleAstDelegate`2.Artinsoft.Common.Visitor.IVisitorDelegate<Artinsoft.Common.AST.IAst,TContext>.ExitNode(IAst node, TContext ctx, UInt32 hLocalCtx)
+[11-05-2025 10:44:16] Info: Step 6/8 - Pre-Conversion Assessment: COMPLETED
+[11-05-2025 10:44:16] Debug: TaskParam TaskProvider = Mobilize.Snow.ConversionTool.Tasks.SnowConvertTaskProvider
+[11-05-2025 10:44:16] Debug: TaskParam TransformationsTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:16] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:16] Debug: TaskParam TransformationsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:16] Debug: TaskParam TransformationsTask.Enabled = True
+[11-05-2025 10:44:16] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:16] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:16] Info: Step 7/8 - Conversion Execution: STARTED
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_procedure2_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_function1_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_procedure6_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_triggers_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_procedure1_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_procedure7_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_functions_demo.sql
+[11-05-2025 10:44:16] Info: Start transforming file SQ_SRV_procedure3_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_procedure3_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_functions_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_function1_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_procedure7_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_procedure6_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_procedure2_demo.sql
+[11-05-2025 10:44:17] Info: Start transforming file SqlServ_triggers_demo.sql
+[11-05-2025 10:44:17] Info: Start transforming file SQ_SRV_tables_demo.sql
+[11-05-2025 10:44:17] Info: Transformed file SQ_SRV_triggers_demo.sql
+[11-05-2025 10:44:17] Info: Start transforming file SQ_SRV_views_demo.sql
+[11-05-2025 10:44:17] Info: Start transforming file SQ_SRV_procedure10_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure10_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedure5_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure1_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure5_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SqlServ_triggers_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_views_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_function2_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_function3_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_function4_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_function2_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_function4_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_function3_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedure12_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedure11_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedure9_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedure4_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedures_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure9_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure4_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_etl_demo.sql
+[11-05-2025 10:44:18] Info: Start transforming file SQ_SRV_procedure8_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedures_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_tables_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure11_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure8_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_etl_demo.sql
+[11-05-2025 10:44:18] Info: Transformed file SQ_SRV_procedure12_demo.sql
+[11-05-2025 10:44:18] Info: Step 7/8 - Conversion Execution: COMPLETED
+[11-05-2025 10:44:18] Debug: TaskParam SnowScript = True
+[11-05-2025 10:44:18] Debug: TaskParam reportPath = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\Reports\SnowConvert
+[11-05-2025 10:44:18] Debug: TaskParam totalProcessedLOC = 0
+[11-05-2025 10:44:18] Debug: TaskParam inputPath = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert
+[11-05-2025 10:44:18] Debug: TaskParam outputPath = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\Output\SnowConvert
+[11-05-2025 10:44:18] Debug: TaskParam SessionTimestamp = 20250511.104314
+[11-05-2025 10:44:18] Debug: TaskParam snowConfiguration = Mobilize.Snow.Configuration.SnowConfiguration
+[11-05-2025 10:44:18] Debug: TaskParam DashboardMode = False
+[11-05-2025 10:44:18] Debug: TaskParam writeResultsProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[11-05-2025 10:44:18] Debug: TaskParam snowExecutionResult = Mobilize.Snow.Assessment.SnowExecutionResult
+[11-05-2025 10:44:18] Debug: TaskParam ConversionEndTask.Input = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\inputForSnowconvert\input.wsp
+[11-05-2025 10:44:18] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[11-05-2025 10:44:18] Debug: TaskParam ConversionEndTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[11-05-2025 10:44:18] Debug: TaskParam ConversionEndTask.Enabled = True
+[11-05-2025 10:44:18] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[11-05-2025 10:44:18] Debug: TaskParam RepositoryDirectory = C:\Users\jayaprasanna.gan\Desktop\snowconvert_automation\scripts\SnowconvertOutput\.mobilize\CommonEF
+[11-05-2025 10:44:18] Info: EFProcess 638825570419155748 ended. Execution time: 00:00:15.6410489
+[11-05-2025 10:44:18] Info: STARTED Step 8/8: Stats and Reports
+[11-05-2025 10:44:18] Info: Writing the conversion summary report
+[11-05-2025 10:44:21] Info: Writing the Assessment report
+[11-05-2025 10:44:21] Info: Writing the Scope Validations report
+[11-05-2025 10:44:21] Info: Writing the raw assessment data report
+[11-05-2025 10:44:21] Info: Writing the Elements report
+[11-05-2025 10:44:21] Info: Writing the Issues report
+[11-05-2025 10:44:21] Info: Writing the missing objects report
+[11-05-2025 10:44:21] Info: Writing the object references report
+[11-05-2025 10:44:21] Info: Writing the top level code unit report
+[11-05-2025 10:44:21] Info: Uploading metadata
+[11-05-2025 10:44:21] Info: COMPLETED Step 8/8: Stats and Reports
+[11-05-2025 10:44:21] Info: 
+==============================================================================
+SnowConvert assessment execution summary
+ - Files: 23
+ - Files Not Generated: 0
+ - Total lines of code: 533
+ - Automatically converted: 93.06%
+ - Conversion time: 00:00:16
+ - Conversion speed: 46 lines of code per second
+See the report files for more details about the conversion status.
+==============================================================================
+
+[11-05-2025 10:44:21] Info: 
+==============================================================================
+SnowConvert Tool.
+Copyright © 2023-2025 Snowflake Inc. All rights reserved.
+==============================================================================
+

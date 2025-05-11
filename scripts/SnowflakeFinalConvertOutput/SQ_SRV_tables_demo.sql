@@ -10,35 +10,35 @@
     ProfileImage VARBINARY,
     Remarks TEXT
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE ProductCatalog (
     ProductID INT PRIMARY KEY,
     ProductName VARCHAR(100),
     ProductSpecs VARCHAR
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE EmployeeRecords (
     EmployeeID INT PRIMARY KEY,
     FullName VARCHAR(100),
     EmployeeData VARIANT  
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE LocationInfo (
     LocationID INT PRIMARY KEY,
     LocationName VARCHAR(100),
     GeoCoordinates GEOGRAPHY
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE UserStatus (
     UserID INT PRIMARY KEY,
     UserName VARCHAR(100),
     IsActive BOOLEAN
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Payments (
     PaymentID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -50,7 +50,7 @@ CREATE OR REPLACE TABLE Payments (
     Status VARCHAR(50)
  CHECK (Status  ('Completed', 'Pending', 'Failed'))
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE OrderDetails (
     OrderDetailID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -60,7 +60,7 @@ CREATE OR REPLACE TABLE OrderDetails (
     UnitPrice DECIMAL(10,2) NOT NULL,
     TotalPrice NUMERIC(18,2) AS (Quantity * UnitPrice) 
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Suppliers (
     SupplierID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -73,7 +73,7 @@ CREATE OR REPLACE TABLE Suppliers (
     Country VARCHAR(100),
     CreatedAt TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Products (
     ProductID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -84,7 +84,7 @@ CREATE OR REPLACE TABLE Products (
     UnitOfMeasure VARCHAR(50),
     CreatedAt TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Warehouses (
     WarehouseID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -94,7 +94,7 @@ CREATE OR REPLACE TABLE Warehouses (
     Manager VARCHAR(255),
     CreatedAt TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Inventory (
     InventoryID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -103,7 +103,7 @@ CREATE OR REPLACE TABLE Inventory (
     Quantity INT NOT NULL,
     LastUpdated TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Customers (
     CustomerID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -116,7 +116,7 @@ CREATE OR REPLACE TABLE Customers (
     Country VARCHAR(100),
     CreatedAt TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP() :: TIMESTAMP
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Orders (
     OrderID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -126,7 +126,7 @@ CREATE OR REPLACE TABLE Orders (
  CHECK (Status  ('Pending', 'Shipped', 'Delivered', 'Cancelled')),
     TotalAmount DECIMAL(18,2) NOT NULL
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Returns (
     ReturnID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -138,7 +138,7 @@ CREATE OR REPLACE TABLE Returns (
     Status VARCHAR(50)
  CHECK (Status  ('Pending', 'Approved', 'Rejected'))
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;
 CREATE OR REPLACE TABLE Payments (
     PaymentID INT IDENTITY(1,1) ORDER PRIMARY KEY,
@@ -150,5 +150,5 @@ CREATE OR REPLACE TABLE Payments (
     Status VARCHAR(50)
  CHECK (Status  ('Completed', 'Pending', 'Failed'))
 )
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "transact",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 ;

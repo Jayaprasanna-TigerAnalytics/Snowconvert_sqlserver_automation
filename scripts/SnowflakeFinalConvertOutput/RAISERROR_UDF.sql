@@ -3,7 +3,7 @@ CREATE OR REPLACE FUNCTION RAISERROR_UDF(MSG_TEXT VARCHAR, SEVERITY DOUBLE, STAT
 RETURNS VARCHAR
 LANGUAGE JAVASCRIPT
 IMMUTABLE
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "udf",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "udf",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 AS
 $$
     const regex = /%(\-|\+|0|#|'')*(\*|[0-9])*(.(\*|[0-9]))*(d|i|o|s|u|x|X)/g;
@@ -32,7 +32,7 @@ CREATE OR REPLACE FUNCTION RAISERROR_UDF(MSG_ID DOUBLE, SEVERITY DOUBLE, STATE D
 RETURNS VARCHAR
 LANGUAGE JAVASCRIPT
 IMMUTABLE
-COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "udf",  "convertedOn": "05-10-2025",  "domain": "test" }}'
+COMMENT = '{ "origin": "sf_sc", "name": "snowconvert", "version": {  "major": 1,  "minor": 3,  "patch": "0.0" }, "attributes": {  "component": "udf",  "convertedOn": "05-11-2025",  "domain": "test" }}'
 AS
 $$
     var MSG = `MESSAGE: ${MSG_ID}, LEVEL: ${SEVERITY}, STATE: ${STATE}`;
